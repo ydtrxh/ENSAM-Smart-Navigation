@@ -604,7 +604,7 @@ The resolver remains grounded in campus aliases, so the LLM is used for extracti
 
 ---
 
-<<<<<<< HEAD:projet CV/ensam_navigation_app/README.md
+
 ## Repository Publication Suggestions
 
 ### Repository Name
@@ -644,52 +644,7 @@ metric-learning
 smart-campus
 ```
 
-### Project Banner Idea
 
-Create a wide banner showing:
-
-- ENSAM campus map in the background,
-- a highlighted route polyline,
-- a small camera/image recognition card,
-- an NLP destination text-input card,
-- the title: `ENSAM Smart Navigation System`.
-
-Recommended size:
-
-```text
-1280 x 640
-```
-
-Suggested path:
-
-```text
-docs/assets/banner.png
-```
-
-Then add it at the top of the README:
-
-```markdown
-![ENSAM Smart Navigation System](docs/assets/banner.png)
-```
-
-### Screenshots to Include Before Publication
-
-Recommended demo assets:
-
-| Asset | Suggested path |
-| --- | --- |
-| Streamlit home screen | `docs/assets/app_home.png` |
-| Image upload and prediction result | `docs/assets/cv_prediction.png` |
-| Destination input / NLP result | `docs/assets/nlp_destination.png` |
-| Route drawn on campus map | `docs/assets/route_visualization.png` |
-| Neo4j graph browser view | `docs/assets/neo4j_graph.png` |
-| Confusion matrix | `docs/assets/confusion_matrix.png` |
-| t-SNE embedding plot | `docs/assets/tsne_embeddings.png` |
-| SVG graph editor | `docs/assets/svg_graph_editor.png` |
-
----
-=======
->>>>>>> 8cfbe854f250db310d6254402a9a68d91036b4a9:README.md
 
 ## Future Improvements
 
@@ -722,5 +677,4 @@ The route quality depends more on graph topology than on the UI polyline. To rep
 
 
 
-=======
->>>>>>> 8cfbe854f250db310d6254402a9a68d91036b4a9:README.md
+
