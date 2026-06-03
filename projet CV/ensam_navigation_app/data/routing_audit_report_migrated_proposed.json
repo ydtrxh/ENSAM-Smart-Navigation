@@ -1,0 +1,204 @@
+{
+  "graph": "data\\campus_graph_migrated_proposed.json",
+  "node_count": 47,
+  "edge_count": 48,
+  "role_counts": {
+    "path": 14,
+    "door": 4,
+    "building": 15,
+    "entrance": 11,
+    "stairs": 3
+  },
+  "missing_node_edges": [],
+  "duplicate_edges": [],
+  "self_loops": [],
+  "isolated_nodes": [],
+  "long_edge_threshold": 120.0,
+  "long_edges": [
+    {
+      "from": "entree_emphi3",
+      "to": "Amphi3",
+      "distance": 468.11,
+      "from_role": "entrance",
+      "to_role": "building"
+    },
+    {
+      "from": "ensam_entry",
+      "to": "administration",
+      "distance": 210.01,
+      "from_role": "path",
+      "to_role": "building"
+    },
+    {
+      "from": "couloir1",
+      "to": "couloir2",
+      "distance": 162.0,
+      "from_role": "path",
+      "to_role": "path"
+    },
+    {
+      "from": "couloircctd1",
+      "to": "CouloirAEEE",
+      "distance": 134.01,
+      "from_role": "path",
+      "to_role": "path"
+    },
+    {
+      "from": "ensam_entry",
+      "to": "pointeuse_entry",
+      "distance": 126.75,
+      "from_role": "path",
+      "to_role": "entrance"
+    }
+  ],
+  "building_junction_edges": [
+    {
+      "from": "Bibliotheque_et_centre_de_langue",
+      "to": "escalier1",
+      "reason": "building_to_stairs"
+    },
+    {
+      "from": "td1",
+      "to": "stairs_right_td1",
+      "reason": "building_to_stairs"
+    }
+  ],
+  "building_node_id_errors": [
+    {
+      "label": "Administration des Étudiants",
+      "node_id": "administration_2",
+      "scale_factor": 1.0
+    },
+    {
+      "label": "Amphithéâtre",
+      "node_id": "amphi_450",
+      "scale_factor": 1.0
+    },
+    {
+      "label": "AtelierTPGMS",
+      "node_id": "dept_industrialisation",
+      "scale_factor": 1.0
+    },
+    {
+      "label": "Bibliothèque",
+      "node_id": "bibliotheque",
+      "scale_factor": 1.0
+    },
+    {
+      "label": "Centre de Forum",
+      "node_id": "forum",
+      "scale_factor": 1.0
+    },
+    {
+      "label": "Centre de Langue",
+      "node_id": "centre_langues",
+      "scale_factor": 1.0
+    },
+    {
+      "label": "Centre de Recherche",
+      "node_id": "centre_recherche",
+      "scale_factor": 1.0
+    },
+    {
+      "label": "Département  Matériaux et des Procédés",
+      "node_id": "dept_materiaux",
+      "scale_factor": 1.0
+    },
+    {
+      "label": "Département AEEE",
+      "node_id": "dept_automatique",
+      "scale_factor": 1.0
+    },
+    {
+      "label": "Département Civil",
+      "node_id": "labo_civil",
+      "scale_factor": 1.0
+    },
+    {
+      "label": "Département Mathématiques-Informatique",
+      "node_id": "dept_math_info",
+      "scale_factor": 1.0
+    },
+    {
+      "label": "Département forge et fonderie",
+      "node_id": "labo_forge",
+      "scale_factor": 1.0
+    },
+    {
+      "label": "Département Énergétique",
+      "node_id": "dept_energetique",
+      "scale_factor": 1.0
+    },
+    {
+      "label": "Salle de Conférence",
+      "node_id": "B24",
+      "scale_factor": 1.0
+    },
+    {
+      "label": "TD1",
+      "node_id": "salles_td_1",
+      "scale_factor": 1.0
+    },
+    {
+      "label": "TD2",
+      "node_id": "salles_td_2",
+      "scale_factor": 1.0
+    },
+    {
+      "label": "TP Fabrication Mécanique",
+      "node_id": "dept_mecanique",
+      "scale_factor": 1.0
+    }
+  ],
+  "buildings_without_entrance_or_door_neighbor": [
+    {
+      "id": "parking",
+      "name": "Parking",
+      "neighbor_roles": [
+        "path"
+      ],
+      "recommendation": "Add an entrance/door node between this building and the path graph."
+    },
+    {
+      "id": "salle_info_7",
+      "name": "Salle 7 Info",
+      "neighbor_roles": [
+        "path"
+      ],
+      "recommendation": "Add an entrance/door node between this building and the path graph."
+    },
+    {
+      "id": "administration",
+      "name": "Administration",
+      "neighbor_roles": [
+        "path"
+      ],
+      "recommendation": "Add an entrance/door node between this building and the path graph."
+    },
+    {
+      "id": "Administration_etud",
+      "name": "Administration des Étudiants",
+      "neighbor_roles": [
+        "path"
+      ],
+      "recommendation": "Add an entrance/door node between this building and the path graph."
+    },
+    {
+      "id": "Bibliotheque_et_centre_de_langue",
+      "name": "Bibliothèque et Centre de Langue",
+      "neighbor_roles": [
+        "path",
+        "stairs"
+      ],
+      "recommendation": "Add an entrance/door node between this building and the path graph."
+    },
+    {
+      "id": "mathinfo_inside",
+      "name": "Département Mathématiques-Informatique (Intérieur)",
+      "neighbor_roles": [
+        "path"
+      ],
+      "recommendation": "Add an entrance/door node between this building and the path graph."
+    }
+  ]
+}

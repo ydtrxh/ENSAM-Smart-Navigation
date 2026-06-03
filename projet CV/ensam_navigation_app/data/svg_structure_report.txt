@@ -1,0 +1,176 @@
+=== SVG Structure Report ===
+Dimensions: width=2092, height=1480, viewBox=0 0 2092 1480
+Scale Factor: 1.0 meters/pixel
+
+=== Unique Element Types ===
+- circle
+- defs
+- ellipse
+- feBlend
+- feColorMatrix
+- feComponentTransfer
+- feComposite
+- feFlood
+- feFuncA
+- feFuncB
+- feFuncG
+- feFuncR
+- feGaussianBlur
+- feMerge
+- feMergeNode
+- feOffset
+- feTurbulence
+- filter
+- g
+- image
+- line
+- path
+- pattern
+- rect
+- svg
+- use
+
+=== Unique IDs by Element Type ===
+- filter: filter0_in_240_168, filter1_in_240_168, filter2_n_240_168, filter3_n_240_168, filter4_in_240_168, filter5_n_240_168, filter6_n_240_168, filter7_n_240_168, filter8_n_240_168, filter9_n_240_168...
+- pattern: pattern0_240_168, pattern1_240_168, pattern2_240_168, pattern3_240_168, pattern4_240_168, pattern5_240_168, pattern6_240_168, pattern7_240_168
+- image: image0_240_168, image1_240_168, image2_240_168
+
+=== Unique Classes ===
+
+=== Group Labels ===
+  - unnamed
+  - unnamed
+  - unnamed
+  - unnamed
+  - unnamed
+  - unnamed
+  - unnamed
+  - unnamed
+  - unnamed
+  - unnamed
+  - unnamed
+  - unnamed
+    - unnamed
+    - unnamed
+    - unnamed
+    - unnamed
+    - unnamed
+    - unnamed
+    - unnamed
+    - unnamed
+  - unnamed
+  - unnamed
+  - unnamed
+  - unnamed
+    - unnamed
+    - unnamed
+    - unnamed
+  - unnamed
+  - unnamed
+  - unnamed
+    - unnamed
+    - unnamed
+    - unnamed
+    - unnamed
+    - unnamed
+    - unnamed
+    - unnamed
+  - unnamed
+  - unnamed
+  - unnamed
+  - unnamed
+  - unnamed
+  - unnamed
+  - unnamed
+  - unnamed
+  - unnamed
+  - unnamed
+  - unnamed
+  - unnamed
+  - unnamed
+  - unnamed
+  - unnamed
+  - unnamed
+  - unnamed
+
+=== Transforms ===
+- Element ID: unnamed, Transform: rotate(-179.82 1622.67 437.787)
+- Element ID: unnamed, Transform: rotate(-0.360633 1532.94 764.768)
+- Element ID: unnamed, Transform: rotate(0.458163 1153.91 543.251)
+- Element ID: unnamed, Transform: rotate(0.458163 1154.4 543.755)
+- Element ID: unnamed, Transform: rotate(0.458166 1218.07 600.766)
+- Element ID: unnamed, Transform: rotate(0.458166 1156.11 595.271)
+- Element ID: unnamed, Transform: rotate(-179.542 1281.3 605.882)
+- Element ID: unnamed, Transform: rotate(0.458166 1173.07 600.906)
+- Element ID: unnamed, Transform: rotate(-179.542 1264.34 600.246)
+- Element ID: unnamed, Transform: rotate(0.458166 1217.24 704.161)
+- Element ID: unnamed, Transform: rotate(0.458166 1155.29 698.666)
+- Element ID: unnamed, Transform: rotate(-179.542 1280.47 709.277)
+- Element ID: unnamed, Transform: rotate(0.458166 1172.24 704.301)
+- Element ID: unnamed, Transform: rotate(-179.542 1263.52 703.641)
+- Element ID: unnamed, Transform: rotate(0.458162 1292.9 544.363)
+- Element ID: unnamed, Transform: rotate(0.458162 1293.4 544.867)
+- Element ID: unnamed, Transform: matrix(-0.999882 -0.0153705 -0.0198915 -0.999802 1423.1 651.233)
+- Element ID: unnamed, Transform: rotate(-86.6489 801.171 1252.29)
+- Element ID: unnamed, Transform: rotate(93.7489 780.36 1212.71)
+- Element ID: unnamed, Transform: rotate(93.7489 780.36 1212.71)
+... (truncated)
+
+=== Fill & Stroke Colors ===
+- #018732
+- #070707
+- #080808
+- #10E02F
+- #487BF7
+- #504A4A
+- #505050
+- #514E4E
+- #534444
+- #581187
+- #5A66CD
+- #5B5858
+- #6B4444
+- #787878
+- #7B7C8D
+- #836CA8
+- #888888
+- #9E50CB
+- #B1B0B0
+- #BCD0FF
+- #BEB4B4
+- #C0BFBF
+- #C8FE19
+- #CBCBCB
+- #D2D2D2
+- #D5D1AB
+- #D9D9D9
+- #E7A53D
+- #E7E7E7
+- #ECECEC
+- #F0EADC
+- #F7EBEB
+- #FF7B23
+- #FFF6F6
+- #FFFEFE
+- black
+- none
+- url(#pattern0_240_168)
+- url(#pattern1_240_168)
+- url(#pattern2_240_168)
+- url(#pattern3_240_168)
+- url(#pattern4_240_168)
+- url(#pattern5_240_168)
+- url(#pattern6_240_168)
+- url(#pattern7_240_168)
+- white
+
+=== Sample Paths ===
+- M384.807 364.975L344.699 363.371L345.507 344.567L324.505 344.17L322.405 364.581L296.801 363.906L296.904 282.905L326.505 
+- M384.807 364.975L344.699 363.371L345.507 344.567L324.505 344.17L322.405 364.581L296.801 363.906L296.904 282.905L326.505 
+- M1059.6 238.864L1059.36 271.666L1018.65 269.265C1018.44 268.166 1019.68 235.86 1019.68 235.86
+- M1079 1414.6L1128.18 1417.69L1130.84 1305.62L918.541 1308.01L915.758 1388.62L1008.01 1387.73L1043.26 1387.39L1042.44 141
+- M1130.84 1305.62L1132.08 1253.33L920.302 1257.01L918.541 1308.01L1130.84 1305.62Z
+
+=== Element Counts per Group ===
+- root: 822
+- unnamed: 245

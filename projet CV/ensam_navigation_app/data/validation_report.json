@@ -1,0 +1,16 @@
+{
+  "total_nodes": 876,
+  "total_edges": 718,
+  "total_buildings": 21,
+  "buildings_without_node": [],
+  "isolated_nodes": [],
+  "disconnected_components": 165,
+  "self_loops": [],
+  "duplicate_edges": [
+    "N6071A0-ND45D1E",
+    "N827A6C-NF71261",
+    "NF71261-N827A6C"
+  ],
+  "passed": false,
+  "warnings": []
+}

@@ -1,0 +1,158 @@
+{
+  "decision": "direct_old_graph_overwrite_rejected_due_to_landmark_misalignment",
+  "current_bounds": [
+    [
+      0,
+      0
+    ],
+    [
+      1480,
+      2092
+    ]
+  ],
+  "tested_normalization": "x_1000=x_current/2092*1000; y_1000=y_current/1480*1000",
+  "proposed_graph": "data/campus_graph_migrated_proposed.json",
+  "active_graph_restored_from": "data/campus_graph_backup.json",
+  "alignment_threshold_px": 50,
+  "landmarks": [
+    {
+      "landmark": "Main entrance",
+      "current_node": "entree_principale",
+      "old_node": "ensam_entry",
+      "current_normalized_1000": [
+        102.1,
+        32.16
+      ],
+      "old_1000": [
+        82.0,
+        330.0
+      ],
+      "delta_px": 298.52,
+      "aligned": false
+    },
+    {
+      "landmark": "Bibliotheque",
+      "current_node": "bibliotheque",
+      "old_node": "Bibliotheque_et_centre_de_langue",
+      "current_normalized_1000": [
+        92.35,
+        277.3
+      ],
+      "old_1000": [
+        220.0,
+        730.0
+      ],
+      "delta_px": 470.35,
+      "aligned": false
+    },
+    {
+      "landmark": "Centre recherche",
+      "current_node": "centre_recherche",
+      "old_node": "centre_de_recherche",
+      "current_normalized_1000": [
+        381.93,
+        246.76
+      ],
+      "old_1000": [
+        440.0,
+        400.0
+      ],
+      "delta_px": 163.88,
+      "aligned": false
+    },
+    {
+      "landmark": "TD1",
+      "current_node": "salles_td_1",
+      "old_node": "td1",
+      "current_normalized_1000": [
+        230.5,
+        222.43
+      ],
+      "old_1000": [
+        320.0,
+        452.0
+      ],
+      "delta_px": 246.4,
+      "aligned": false
+    },
+    {
+      "landmark": "TD2",
+      "current_node": "salles_td_2",
+      "old_node": "td2",
+      "current_normalized_1000": [
+        229.06,
+        180.14
+      ],
+      "old_1000": [
+        215.0,
+        470.0
+      ],
+      "delta_px": 290.21,
+      "aligned": false
+    },
+    {
+      "landmark": "Administration",
+      "current_node": "administration_1",
+      "old_node": "administration",
+      "current_normalized_1000": [
+        118.36,
+        156.89
+      ],
+      "old_1000": [
+        80.0,
+        540.0
+      ],
+      "delta_px": 385.02,
+      "aligned": false
+    },
+    {
+      "landmark": "Administration etudiants",
+      "current_node": "administration_2",
+      "old_node": "Administration_etud",
+      "current_normalized_1000": [
+        134.51,
+        215.95
+      ],
+      "old_1000": [
+        180.0,
+        623.0
+      ],
+      "delta_px": 409.59,
+      "aligned": false
+    },
+    {
+      "landmark": "Civil",
+      "current_node": "labo_civil",
+      "old_node": "civil",
+      "current_normalized_1000": [
+        369.22,
+        299.46
+      ],
+      "old_1000": [
+        542.0,
+        400.0
+      ],
+      "delta_px": 199.91,
+      "aligned": false
+    },
+    {
+      "landmark": "Buvette",
+      "current_node": "buvette",
+      "old_node": "buvette",
+      "current_normalized_1000": [
+        470.08,
+        303.78
+      ],
+      "old_1000": [
+        639.0,
+        317.0
+      ],
+      "delta_px": 169.44,
+      "aligned": false
+    }
+  ],
+  "summary": {
+    "aligned_count": 0,
+    "total_count": 9
+  }
+}

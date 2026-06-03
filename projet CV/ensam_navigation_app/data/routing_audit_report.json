@@ -1,0 +1,386 @@
+{
+  "graph": "data\\campus_graph.json",
+  "node_count": 107,
+  "edge_count": 108,
+  "role_counts": {
+    "entrance": 1,
+    "path": 76,
+    "building": 30
+  },
+  "missing_node_edges": [],
+  "duplicate_edges": [],
+  "self_loops": [],
+  "isolated_nodes": [],
+  "long_edge_threshold": 120.0,
+  "long_edges": [
+    {
+      "from": "N_GMS_N",
+      "to": "N_GMS_E",
+      "distance": 244.99,
+      "from_role": "path",
+      "to_role": "path"
+    },
+    {
+      "from": "N_CONF_E",
+      "to": "N_SPORT_SUD",
+      "distance": 233.0,
+      "from_role": "path",
+      "to_role": "path"
+    },
+    {
+      "from": "N_DEPT_MAT_N",
+      "to": "N_DEPT_MAT",
+      "distance": 195.0,
+      "from_role": "path",
+      "to_role": "path"
+    },
+    {
+      "from": "N_ADMIN1",
+      "to": "N_ADMIN_N",
+      "distance": 183.7,
+      "from_role": "path",
+      "to_role": "path"
+    },
+    {
+      "from": "N_DEPT_N1",
+      "to": "N_LAB_W",
+      "distance": 183.0,
+      "from_role": "path",
+      "to_role": "path"
+    },
+    {
+      "from": "N_VOLLEY_S",
+      "to": "N_VOLLEY_E",
+      "distance": 177.0,
+      "from_role": "path",
+      "to_role": "path"
+    },
+    {
+      "from": "N_ATEL_W",
+      "to": "N_ATEL_E",
+      "distance": 161.0,
+      "from_role": "path",
+      "to_role": "path"
+    },
+    {
+      "from": "N_GMS_MAIN",
+      "to": "N_SPORT_N",
+      "distance": 160.59,
+      "from_role": "path",
+      "to_role": "path"
+    },
+    {
+      "from": "N_LAB_MID",
+      "to": "N_LAB_E1",
+      "distance": 156.32,
+      "from_role": "path",
+      "to_role": "path"
+    },
+    {
+      "from": "N_BIB_LINK",
+      "to": "N_ADMIN1",
+      "distance": 155.0,
+      "from_role": "path",
+      "to_role": "path"
+    },
+    {
+      "from": "N_GMS_W",
+      "to": "N_GMS_MAIN",
+      "distance": 150.0,
+      "from_role": "path",
+      "to_role": "path"
+    },
+    {
+      "from": "N_DEPT_MAT_S",
+      "to": "N_VOLLEY_W",
+      "distance": 149.0,
+      "from_role": "path",
+      "to_role": "path"
+    },
+    {
+      "from": "N_CONF",
+      "to": "N_CONF_E",
+      "distance": 148.28,
+      "from_role": "path",
+      "to_role": "path"
+    },
+    {
+      "from": "N_SPORT_SUD_S",
+      "to": "N_SPORT_SUD_E",
+      "distance": 139.0,
+      "from_role": "path",
+      "to_role": "path"
+    },
+    {
+      "from": "N_PARK_TOP",
+      "to": "N_PARK_E",
+      "distance": 134.0,
+      "from_role": "path",
+      "to_role": "path"
+    },
+    {
+      "from": "N_EAST2",
+      "to": "N_ATEL_W",
+      "distance": 132.85,
+      "from_role": "path",
+      "to_role": "path"
+    },
+    {
+      "from": "N_SPORT_E3",
+      "to": "N_FOOT",
+      "distance": 126.0,
+      "from_role": "path",
+      "to_role": "path"
+    }
+  ],
+  "building_junction_edges": [],
+  "building_node_id_errors": [
+    {
+      "label": "Département Énergétique",
+      "node_id": "dept_energetique",
+      "scale_factor": 1.0
+    }
+  ],
+  "buildings_without_entrance_or_door_neighbor": [
+    {
+      "id": "B01",
+      "name": "Complexe Sportif de l'UniversitÃ© Moulay Ismail",
+      "neighbor_roles": [
+        "path"
+      ],
+      "recommendation": "Add an entrance/door node between this building and the path graph."
+    },
+    {
+      "id": "B02",
+      "name": "Logements de Fonction",
+      "neighbor_roles": [
+        "path"
+      ],
+      "recommendation": "Add an entrance/door node between this building and the path graph."
+    },
+    {
+      "id": "labo_forge",
+      "name": "Laboratoires Forge et Fonderie",
+      "neighbor_roles": [
+        "path"
+      ],
+      "recommendation": "Add an entrance/door node between this building and the path graph."
+    },
+    {
+      "id": "dept_materiaux",
+      "name": "DÃ©partement MatÃ©riaux et ProcÃ©dÃ©s",
+      "neighbor_roles": [
+        "path"
+      ],
+      "recommendation": "Add an entrance/door node between this building and the path graph."
+    },
+    {
+      "id": "amphi_450",
+      "name": "Amphi 450",
+      "neighbor_roles": [
+        "path"
+      ],
+      "recommendation": "Add an entrance/door node between this building and the path graph."
+    },
+    {
+      "id": "dept_math_info",
+      "name": "DÃ©partement MathÃ©matiques, Informatique, Culture, Sciences de l'Homme et de la SociÃ©tÃ©",
+      "neighbor_roles": [
+        "path"
+      ],
+      "recommendation": "Add an entrance/door node between this building and the path graph."
+    },
+    {
+      "id": "dept_industrialisation",
+      "name": "DÃ©partement de GÃ©nie Industriel et Productique",
+      "neighbor_roles": [
+        "path"
+      ],
+      "recommendation": "Add an entrance/door node between this building and the path graph."
+    },
+    {
+      "id": "dept_automatique",
+      "name": "DÃ©partement Automatique, Electronique, Electrotechnique et ElectromÃ©canique",
+      "neighbor_roles": [
+        "path"
+      ],
+      "recommendation": "Add an entrance/door node between this building and the path graph."
+    },
+    {
+      "id": "centre_langues",
+      "name": "Centre de Langues",
+      "neighbor_roles": [
+        "path"
+      ],
+      "recommendation": "Add an entrance/door node between this building and the path graph."
+    },
+    {
+      "id": "B10",
+      "name": "DÃ©partement EnergÃ©tique",
+      "neighbor_roles": [
+        "path"
+      ],
+      "recommendation": "Add an entrance/door node between this building and the path graph."
+    },
+    {
+      "id": "labo_civil",
+      "name": "Laboratoires de GÃ©nie Civil",
+      "neighbor_roles": [
+        "path"
+      ],
+      "recommendation": "Add an entrance/door node between this building and the path graph."
+    },
+    {
+      "id": "buvette",
+      "name": "Buvette des Etudiants",
+      "neighbor_roles": [
+        "path"
+      ],
+      "recommendation": "Add an entrance/door node between this building and the path graph."
+    },
+    {
+      "id": "dept_mecanique",
+      "name": "DÃ©partement GÃ©nie MÃ©canique et Structures",
+      "neighbor_roles": [
+        "path"
+      ],
+      "recommendation": "Add an entrance/door node between this building and the path graph."
+    },
+    {
+      "id": "bibliotheque",
+      "name": "BibliothÃ¨que",
+      "neighbor_roles": [
+        "path"
+      ],
+      "recommendation": "Add an entrance/door node between this building and the path graph."
+    },
+    {
+      "id": "centre_recherche",
+      "name": "Centre de Recherche Scientifique et d'Innovation Technologique",
+      "neighbor_roles": [
+        "path"
+      ],
+      "recommendation": "Add an entrance/door node between this building and the path graph."
+    },
+    {
+      "id": "salles_td_1",
+      "name": "Salles des Travaux DirigÃ©s I",
+      "neighbor_roles": [
+        "path"
+      ],
+      "recommendation": "Add an entrance/door node between this building and the path graph."
+    },
+    {
+      "id": "salles_td_2",
+      "name": "Salles des Travaux DirigÃ©s II",
+      "neighbor_roles": [
+        "path"
+      ],
+      "recommendation": "Add an entrance/door node between this building and the path graph."
+    },
+    {
+      "id": "atelier_maintenance",
+      "name": "Atelier de Maintenance",
+      "neighbor_roles": [
+        "path"
+      ],
+      "recommendation": "Add an entrance/door node between this building and the path graph."
+    },
+    {
+      "id": "amphi_250",
+      "name": "Amphi 250",
+      "neighbor_roles": [
+        "path"
+      ],
+      "recommendation": "Add an entrance/door node between this building and the path graph."
+    },
+    {
+      "id": "administration_1",
+      "name": "Administration I",
+      "neighbor_roles": [
+        "path"
+      ],
+      "recommendation": "Add an entrance/door node between this building and the path graph."
+    },
+    {
+      "id": "administration_2",
+      "name": "Administration II",
+      "neighbor_roles": [
+        "path"
+      ],
+      "recommendation": "Add an entrance/door node between this building and the path graph."
+    },
+    {
+      "id": "forum",
+      "name": "Forum",
+      "neighbor_roles": [
+        "path"
+      ],
+      "recommendation": "Add an entrance/door node between this building and the path graph."
+    },
+    {
+      "id": "B23",
+      "name": "MosquÃ©e",
+      "neighbor_roles": [
+        "path"
+      ],
+      "recommendation": "Add an entrance/door node between this building and the path graph."
+    },
+    {
+      "id": "B24",
+      "name": "Salle de ConfÃ©rence",
+      "neighbor_roles": [
+        "path"
+      ],
+      "recommendation": "Add an entrance/door node between this building and the path graph."
+    },
+    {
+      "id": "B25",
+      "name": "Terrain de Football",
+      "neighbor_roles": [
+        "path"
+      ],
+      "recommendation": "Add an entrance/door node between this building and the path graph."
+    },
+    {
+      "id": "B26",
+      "name": "Terrain de Basket",
+      "neighbor_roles": [
+        "path"
+      ],
+      "recommendation": "Add an entrance/door node between this building and the path graph."
+    },
+    {
+      "id": "B27",
+      "name": "Terrain de Mini-foot",
+      "neighbor_roles": [
+        "path"
+      ],
+      "recommendation": "Add an entrance/door node between this building and the path graph."
+    },
+    {
+      "id": "B28",
+      "name": "Terrain de Volley",
+      "neighbor_roles": [
+        "path"
+      ],
+      "recommendation": "Add an entrance/door node between this building and the path graph."
+    },
+    {
+      "id": "B29",
+      "name": "Parking",
+      "neighbor_roles": [
+        "path"
+      ],
+      "recommendation": "Add an entrance/door node between this building and the path graph."
+    },
+    {
+      "id": "entree_principale",
+      "name": "EntrÃ©e Principale",
+      "neighbor_roles": [
+        "path"
+      ],
+      "recommendation": "Add an entrance/door node between this building and the path graph."
+    }
+  ]
+}

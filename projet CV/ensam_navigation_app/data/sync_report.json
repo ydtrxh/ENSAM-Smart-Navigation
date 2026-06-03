@@ -1,0 +1,15 @@
+{
+  "total_classes_in_buildings_json": 17,
+  "total_classes_in_raw": 17,
+  "total_classes_in_gallery": 17,
+  "total_classes_in_checkpoint": 17,
+  "new_classes": [],
+  "removed_classes": [],
+  "classes_below_minimum_images": [],
+  "label_uniqueness": "ok",
+  "node_id_uniqueness": "ok",
+  "passed": true,
+  "errors": [],
+  "warnings": [],
+  "seed": 42
+}

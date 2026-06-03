@@ -1,0 +1,94 @@
+{
+  "albumentations_version": "1.3.1",
+  "target_count": 200,
+  "seed": 42,
+  "classes_processed": 17,
+  "classes_skipped": 0,
+  "per_class": {
+    "Administration des Étudiants": {
+      "raw": 133,
+      "augmented": 200,
+      "added": 67
+    },
+    "Amphithéâtre": {
+      "raw": 160,
+      "augmented": 200,
+      "added": 200
+    },
+    "AtelierTPGMS": {
+      "raw": 141,
+      "augmented": 200,
+      "added": 200
+    },
+    "Bibliothèque": {
+      "raw": 223,
+      "augmented": 223,
+      "added": 223
+    },
+    "Centre de Forum": {
+      "raw": 73,
+      "augmented": 200,
+      "added": 200
+    },
+    "Centre de Langue": {
+      "raw": 45,
+      "augmented": 200,
+      "added": 200
+    },
+    "Centre de Recherche": {
+      "raw": 35,
+      "augmented": 200,
+      "added": 200
+    },
+    "Département  Matériaux et des Procédés": {
+      "raw": 90,
+      "augmented": 200,
+      "added": 200
+    },
+    "Département AEEE": {
+      "raw": 230,
+      "augmented": 230,
+      "added": 230
+    },
+    "Département Civil": {
+      "raw": 284,
+      "augmented": 284,
+      "added": 284
+    },
+    "Département Mathématiques-Informatique": {
+      "raw": 167,
+      "augmented": 200,
+      "added": 200
+    },
+    "Département forge et fonderie": {
+      "raw": 416,
+      "augmented": 416,
+      "added": 416
+    },
+    "Département Énergétique": {
+      "raw": 215,
+      "augmented": 215,
+      "added": 215
+    },
+    "Salle de Conférence": {
+      "raw": 141,
+      "augmented": 200,
+      "added": 200
+    },
+    "TD1": {
+      "raw": 124,
+      "augmented": 200,
+      "added": 200
+    },
+    "TD2": {
+      "raw": 230,
+      "augmented": 230,
+      "added": 230
+    },
+    "TP Fabrication Mécanique": {
+      "raw": 201,
+      "augmented": 201,
+      "added": 201
+    }
+  }
+}
