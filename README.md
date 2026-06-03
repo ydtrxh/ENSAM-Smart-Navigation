@@ -12,6 +12,8 @@ An intelligent campus navigation system for ENSAM that combines **Computer Visio
 The system is designed as an applied AI engineering project: a user uploads an image of their surroundings, the vision model recognizes the building or door area, the user types a destination, the NLP pipeline resolves that destination to a campus node, and the navigation engine computes a realistic route through a graph of walkable paths.
 
 ---
+## La Documentation
+https://ensam-smart-navigation.readthedocs.io/en/latest/architecture/
 
 ## Motivation
 
