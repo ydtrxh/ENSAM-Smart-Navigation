@@ -1,0 +1,77 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment and secrets
+.env
+.env.local
+*.env
+!.env.example
+
+# Streamlit and local runtime logs
+.streamlit/secrets.toml
+streamlit_output.txt
+streamlit_live.*.log
+crash_log*.txt
+*.log
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Large datasets
+data/raw/
+data/train/
+data/val/
+data/gallery/
+data/CV data_v2/
+data/external/
+
+# Model artifacts
+checkpoints/
+models/checkpoints/
+models/legacy/
+*.pth
+*.pt
+*.onnx
+*.torchscript
+*.h5
+*.pkl
+
+# Generated outputs and reports
+outputs/
+site/
+cv_engine/outputs/
+data/augmentation_report.json
+data/sync_report.json
+data/validation_report.json
+data/routing_audit_report*.json
+data/old_graph_alignment_report.json
+data/svg_structure_report.txt
+
+# Local graph backups and experiments
+data/*backup*.json
+data/*migrated_proposed*.json
+data/campus_graph_from_svg_editor.json
+
+# Keep source graph/config files trackable
+!data/buildings.json
+!data/campus_graph.json
+!data/campus.geojson
+!data/navigation_db.json
+!data/graph.json
+!data/ensam360_old_routing_reference.json
