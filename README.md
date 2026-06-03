@@ -5,12 +5,11 @@
 ![Streamlit](https://img.shields.io/badge/Streamlit-Web%20App-FF4B4B?logo=streamlit&logoColor=white)
 ![Neo4j](https://img.shields.io/badge/Neo4j-Graph%20Database-4581C3?logo=neo4j&logoColor=white)
 ![NetworkX](https://img.shields.io/badge/NetworkX-Graph%20Validation-1F77B4)
-![Whisper](https://img.shields.io/badge/Whisper-Speech%20Recognition-111827)
 ![Ollama](https://img.shields.io/badge/Ollama-Optional%20Local%20LLM-000000)
 
-An intelligent campus navigation system for ENSAM that combines **Computer Vision**, **Speech Recognition**, **Natural Language Processing**, and **Graph-Based Routing** to help users identify their current location and navigate to a destination on an interactive campus map.
+An intelligent campus navigation system for ENSAM that combines **Computer Vision**, **Natural Language Processing**, and **Graph-Based Routing** to help users identify their current location and navigate to a destination on an interactive campus map.
 
-The system is designed as an applied AI engineering project: a user uploads an image of their surroundings, the vision model recognizes the building or door area, the user gives a destination by text or voice, the NLP pipeline resolves that destination to a campus node, and the navigation engine computes a realistic route through a graph of walkable paths.
+The system is designed as an applied AI engineering project: a user uploads an image of their surroundings, the vision model recognizes the building or door area, the user types a destination, the NLP pipeline resolves that destination to a campus node, and the navigation engine computes a realistic route through a graph of walkable paths.
 
 ---
 
@@ -21,8 +20,7 @@ Large campuses can be difficult to navigate for new students, visitors, and staf
 This project explores how multiple AI components can work together in one practical system:
 
 - Computer Vision localizes the user from a building or door image.
-- Speech Recognition allows hands-free destination input.
-- NLP converts informal user requests into structured destination nodes.
+- NLP converts typed destination requests into structured destination nodes.
 - Graph routing computes paths through real campus walkways.
 - Streamlit and Leaflet/SVG provide an interactive user interface.
 - Neo4j stores the navigation graph and enables shortest-path queries.
@@ -33,7 +31,7 @@ This project explores how multiple AI components can work together in one practi
 
 - Location recognition from campus images using deep learning.
 - Metric-learning CV pipeline with EfficientNet-B0 embeddings.
-- Voice-based destination input through Whisper-compatible transcription.
+- Text-based destination input.
 - NLP destination extraction and fuzzy entity resolution.
 - Optional local LLM support through Ollama.
 - Interactive campus map rendered from a custom SVG.
@@ -51,13 +49,12 @@ This project explores how multiple AI components can work together in one practi
 flowchart LR
     User["User"]
     Image["Campus image"]
-    Voice["Voice or text destination"]
+    Text["Typed destination"]
 
     CV["Computer Vision Engine<br/>EfficientNet-B0 embeddings"]
     Gallery["Gallery centroids<br/>checkpoints/gallery.pkl"]
     Buildings["data/buildings.json<br/>class to node_id"]
 
-    Whisper["Speech Recognition<br/>Whisper-compatible input"]
     NLP["NLP Engine<br/>intent extraction + entity resolution"]
     GeoJSON["campus.geojson<br/>labels and aliases"]
 
@@ -74,8 +71,7 @@ flowchart LR
     CV --> Buildings
     Buildings --> Routing
 
-    User --> Voice --> Whisper --> NLP
-    User --> NLP
+    User --> Text --> NLP
     NLP --> GeoJSON
     NLP --> Routing
 
@@ -229,7 +225,7 @@ The NLP pipeline converts a user destination request into a graph node ID.
 
 ```mermaid
 flowchart LR
-    Input["Text or Whisper transcript"]
+    Input["Typed destination text"]
     Extract["Intent extraction<br/>LLM or local rules"]
     Resolve["Entity resolution<br/>RapidFuzz aliases"]
     Campus["campus.geojson"]
@@ -361,7 +357,7 @@ http://localhost:8501
 1. Upload an image of your current campus environment.
 2. The CV model predicts the most likely location.
 3. Confirm the detected location.
-4. Enter or speak your destination.
+4. Enter your destination as text.
 5. The NLP pipeline resolves the destination to a graph node.
 6. The navigation engine computes the shortest route.
 7. The route is displayed on the SVG campus map.
@@ -575,7 +571,7 @@ Alternative names:
 ### Repository Description
 
 ```text
-AI-powered ENSAM campus navigation system combining computer vision, speech recognition, NLP, Neo4j graph routing, and Streamlit map visualization.
+AI-powered ENSAM campus navigation system combining computer vision, NLP, Neo4j graph routing, and Streamlit map visualization.
 ```
 
 ### Topics / Tags
@@ -587,8 +583,6 @@ streamlit
 pytorch
 neo4j
 nlp
-speech-recognition
-whisper
 ollama
 networkx
 leaflet
@@ -604,7 +598,7 @@ Create a wide banner showing:
 - ENSAM campus map in the background,
 - a highlighted route polyline,
 - a small camera/image recognition card,
-- a voice/NLP destination card,
+- an NLP destination text-input card,
 - the title: `ENSAM Smart Navigation System`.
 
 Recommended size:
