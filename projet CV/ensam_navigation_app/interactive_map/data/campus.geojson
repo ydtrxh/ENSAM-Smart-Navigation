@@ -1,0 +1,555 @@
+{
+  "type": "FeatureCollection",
+  "crs": { "type": "name", "properties": { "name": "campus:pixel" } },
+  "metadata": {
+    "campus": "ENSAM - École Nationale Supérieure d'Arts et Métiers",
+    "university": "Université Moulay Ismail",
+    "location": "Meknès, Maroc",
+    "imageWidth": 1600,
+    "imageHeight": 900,
+    "coordinateSystem": "Image pixel coordinates: [lng=px, lat=900-py] where px is pixels from left, py is pixels from top"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "B01",
+        "name": "Complexe Sportif de l'Université Moulay Ismail",
+        "type": "sports_complex",
+        "category": "Sports Facilities",
+        "description": "Main university sports complex featuring indoor courts, athletics facilities, and multi-purpose sports halls for student and competitive events.",
+        "capacity": null,
+        "floor_count": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [428, 748], [756, 748], [756, 820], [951, 820], [951, 428],
+          [428, 428], [428, 748]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "B02",
+        "name": "Logements de Fonction",
+        "type": "residential",
+        "category": "Residential",
+        "description": "On-campus residential accommodations for faculty, administrative staff, and visiting professors of the university.",
+        "capacity": null,
+        "floor_count": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [340, 792], [480, 792], [480, 717], [340, 717], [340, 792]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "B03",
+        "name": "Laboratoires Forge et Fonderie",
+        "type": "laboratory",
+        "category": "Laboratories",
+        "description": "Specialized forge and foundry laboratories equipped for metalworking, casting, heat treatment, and materials processing experiments.",
+        "capacity": null,
+        "floor_count": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [1161, 732], [1338, 732], [1338, 628], [1161, 628], [1161, 732]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "B04",
+        "name": "Département Matériaux et Procédés",
+        "type": "department",
+        "category": "Academic Departments",
+        "description": "Department of Materials Science and Manufacturing Processes, covering metallurgy, polymers, composites, and production engineering.",
+        "capacity": null,
+        "floor_count": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [951, 650], [1176, 650], [1176, 561], [951, 561], [951, 650]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "B05",
+        "name": "Amphi 450",
+        "type": "amphitheater",
+        "category": "Amphitheaters",
+        "description": "Large amphitheater with a seating capacity of 450 students, used for major academic lectures, conferences, and university events.",
+        "capacity": 450,
+        "floor_count": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [211, 576], [278, 517], [211, 458], [144, 517], [211, 576]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "B06",
+        "name": "Département Mathématiques, Informatique, Culture, Sciences de l'Homme et de la Société",
+        "type": "department",
+        "category": "Academic Departments",
+        "description": "Interdisciplinary department covering mathematics, computer science, humanities, social sciences, and cultural studies.",
+        "capacity": null,
+        "floor_count": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [367, 580], [550, 580], [550, 500], [367, 500], [367, 580]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "B07",
+        "name": "Département de Génie Industriel et Productique",
+        "type": "department",
+        "category": "Academic Departments",
+        "description": "Department of Industrial Engineering and Production Systems, covering manufacturing processes, quality management, and lean production.",
+        "capacity": null,
+        "floor_count": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [367, 500], [550, 500], [550, 439], [367, 439], [367, 500]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "B08",
+        "name": "Département Automatique, Electronique, Electrotechnique et Electromécanique",
+        "type": "department",
+        "category": "Academic Departments",
+        "description": "Department covering automation, electronics, electrical engineering, and electromechanical systems including robotics and power systems.",
+        "capacity": null,
+        "floor_count": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [550, 522], [712, 522], [712, 400], [550, 400], [550, 522]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "B09",
+        "name": "Centre de Langues",
+        "type": "language_center",
+        "category": "Academic Services",
+        "description": "Language center offering courses in Arabic, French, English, and other languages, supporting academic and professional communication skills.",
+        "capacity": null,
+        "floor_count": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [98, 506], [183, 506], [183, 428], [98, 428], [98, 506]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "B10",
+        "name": "Département Energétique",
+        "type": "department",
+        "category": "Academic Departments",
+        "description": "Department of Energy Engineering covering thermodynamics, renewable energy, fluid mechanics, and sustainable energy systems design.",
+        "capacity": null,
+        "floor_count": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [1012, 572], [1072, 522], [1012, 472], [952, 522], [1012, 572]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "B11",
+        "name": "Laboratoires de Génie Civil",
+        "type": "laboratory",
+        "category": "Laboratories",
+        "description": "Civil engineering laboratories equipped for structural testing, soil mechanics analysis, hydraulics experiments, and materials characterization.",
+        "capacity": null,
+        "floor_count": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [706, 472], [872, 472], [872, 400], [706, 400], [706, 472]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "B12",
+        "name": "Buvette des Etudiants",
+        "type": "cafeteria",
+        "category": "Student Services",
+        "description": "Student cafeteria and refreshment area offering snacks, beverages, and light meals for students and staff throughout the day.",
+        "capacity": null,
+        "floor_count": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [917, 464], [1083, 464], [1083, 428], [917, 428], [917, 464]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "B13",
+        "name": "Département Génie Mécanique et Structures",
+        "type": "department",
+        "category": "Academic Departments",
+        "description": "Department of Mechanical Engineering and Structural Analysis, covering machine design, solid mechanics, finite element analysis, and vibration.",
+        "capacity": null,
+        "floor_count": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [950, 422], [1194, 422], [1194, 322], [950, 322], [950, 422]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "B14",
+        "name": "Bibliothèque",
+        "type": "library",
+        "category": "Libraries",
+        "description": "University library providing access to academic books, scientific journals, digital databases, study spaces, and research resources.",
+        "capacity": null,
+        "floor_count": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [144, 436], [267, 436], [267, 372], [144, 372], [144, 436]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "B15",
+        "name": "Centre de Recherche Scientifique et d'Innovation Technologique",
+        "type": "research_center",
+        "category": "Laboratories",
+        "description": "Scientific research and technological innovation center hosting interdisciplinary research projects, doctoral studies, and industry partnerships.",
+        "capacity": null,
+        "floor_count": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [739, 394], [889, 394], [889, 322], [739, 322], [739, 394]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "B16",
+        "name": "Salles des Travaux Dirigés I",
+        "type": "classroom",
+        "category": "Academic Services",
+        "description": "Tutorial and directed study rooms - Block I, providing spaces for small-group academic sessions, workshops, and practical exercises.",
+        "capacity": null,
+        "floor_count": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [411, 356], [589, 356], [589, 289], [411, 289], [411, 356]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "B17",
+        "name": "Salles des Travaux Dirigés II",
+        "type": "classroom",
+        "category": "Academic Services",
+        "description": "Tutorial and directed study rooms - Block II, additional spaces for practical academic sessions and student study groups.",
+        "capacity": null,
+        "floor_count": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [406, 289], [589, 289], [589, 233], [406, 233], [406, 289]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "B18",
+        "name": "Atelier de Maintenance",
+        "type": "workshop",
+        "category": "Academic Services",
+        "description": "Maintenance workshop housing tools and equipment for campus facility upkeep, as well as practical training for engineering students.",
+        "capacity": null,
+        "floor_count": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [478, 233], [639, 233], [639, 172], [478, 172], [478, 233]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "B19",
+        "name": "Amphi 250",
+        "type": "amphitheater",
+        "category": "Amphitheaters",
+        "description": "Amphitheater with a seating capacity of 250, used for academic lectures, departmental events, and student presentations.",
+        "capacity": 250,
+        "floor_count": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [639, 278], [744, 278], [744, 194], [639, 194], [639, 278]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "B20",
+        "name": "Administration I",
+        "type": "administration",
+        "category": "Administration",
+        "description": "Main administrative building housing the director's office, student registration services, finance department, and principal administrative functions.",
+        "capacity": null,
+        "floor_count": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [194, 261], [328, 261], [328, 189], [194, 189], [194, 261]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "B21",
+        "name": "Administration II",
+        "type": "administration",
+        "category": "Administration",
+        "description": "Secondary administrative offices handling academic affairs, faculty management, scheduling, and departmental coordination.",
+        "capacity": null,
+        "floor_count": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [217, 344], [378, 344], [378, 283], [217, 283], [217, 344]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "B22",
+        "name": "Forum",
+        "type": "student_space",
+        "category": "Student Services",
+        "description": "Student forum and gathering space, used for information bulletins, student association activities, and campus social events.",
+        "capacity": null,
+        "floor_count": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [156, 322], [222, 322], [222, 272], [156, 272], [156, 322]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "B23",
+        "name": "Mosquée",
+        "type": "mosque",
+        "category": "Student Services",
+        "description": "Campus mosque providing a space for daily prayers and religious activities for Muslim students and staff.",
+        "capacity": null,
+        "floor_count": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [183, 717], [283, 717], [283, 628], [183, 628], [183, 717]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "B24",
+        "name": "Salle de Conférence",
+        "type": "conference",
+        "category": "Academic Services",
+        "description": "Conference hall equipped with modern presentation technology for academic seminars, colloquia, defense sessions, and international events.",
+        "capacity": null,
+        "floor_count": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [661, 822], [800, 822], [800, 733], [661, 733], [661, 822]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "B25",
+        "name": "Terrain de Football",
+        "type": "sports_field",
+        "category": "Sports Facilities",
+        "description": "Regulation football (soccer) field for student sports activities, university team training, and inter-university competitions.",
+        "capacity": null,
+        "floor_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [1233, 606], [1506, 606], [1506, 333], [1233, 333], [1233, 606]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "B26",
+        "name": "Terrain de Basket",
+        "type": "sports_court",
+        "category": "Sports Facilities",
+        "description": "Basketball court for student recreational sports, team practice, and university competitions.",
+        "capacity": null,
+        "floor_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [1044, 533], [1178, 533], [1178, 400], [1044, 400], [1044, 533]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "B27",
+        "name": "Terrain de Mini-foot",
+        "type": "sports_court",
+        "category": "Sports Facilities",
+        "description": "Small-sided football court for informal matches, recreational sports, and student fitness activities.",
+        "capacity": null,
+        "floor_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [1167, 533], [1244, 533], [1244, 400], [1167, 400], [1167, 533]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "B28",
+        "name": "Terrain de Volley",
+        "type": "sports_court",
+        "category": "Sports Facilities",
+        "description": "Volleyball court for student sports activities, club practice sessions, and inter-department tournaments.",
+        "capacity": null,
+        "floor_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [1100, 722], [1244, 722], [1244, 600], [1100, 600], [1100, 722]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "B29",
+        "name": "Parking",
+        "type": "parking",
+        "category": "Student Services",
+        "description": "Main campus parking area providing parking spaces for students, academic staff, and visitors to the university.",
+        "capacity": null,
+        "floor_count": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [533, 144], [667, 144], [667, 56], [533, 56], [533, 144]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "B30",
+        "name": "Entrée Principale",
+        "type": "entrance",
+        "category": "Student Services",
+        "description": "Main campus entrance gate providing access to the university for students, staff, and visitors. Security checkpoint located here.",
+        "capacity": null,
+        "floor_count": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [178, 72], [267, 72], [267, 11], [178, 11], [178, 72]
+        ]]
+      }
+    }
+  ]
+}

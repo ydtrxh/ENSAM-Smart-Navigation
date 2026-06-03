@@ -1,0 +1,87 @@
+[
+  {
+    "label": "Administration des Étudiants",
+    "node_id": "administration_2",
+    "scale_factor": 1.0
+  },
+  {
+    "label": "Amphithéâtre",
+    "node_id": "amphi_450",
+    "scale_factor": 1.0
+  },
+  {
+    "label": "AtelierTPGMS",
+    "node_id": "dept_industrialisation",
+    "scale_factor": 1.0
+  },
+  {
+    "label": "Bibliothèque",
+    "node_id": "bibliotheque",
+    "scale_factor": 1.0
+  },
+  {
+    "label": "Centre de Forum",
+    "node_id": "forum",
+    "scale_factor": 1.0
+  },
+  {
+    "label": "Centre de Langue",
+    "node_id": "centre_langues",
+    "scale_factor": 1.0
+  },
+  {
+    "label": "Centre de Recherche",
+    "node_id": "centre_recherche",
+    "scale_factor": 1.0
+  },
+  {
+    "label": "Département  Matériaux et des Procédés",
+    "node_id": "dept_materiaux",
+    "scale_factor": 1.0
+  },
+  {
+    "label": "Département AEEE",
+    "node_id": "dept_automatique",
+    "scale_factor": 1.0
+  },
+  {
+    "label": "Département Civil",
+    "node_id": "labo_civil",
+    "scale_factor": 1.0
+  },
+  {
+    "label": "Département Mathématiques-Informatique",
+    "node_id": "dept_math_info",
+    "scale_factor": 1.0
+  },
+  {
+    "label": "Département forge et fonderie",
+    "node_id": "labo_forge",
+    "scale_factor": 1.0
+  },
+  {
+    "label": "Département Énergétique",
+    "node_id": "dept_energetique",
+    "scale_factor": 1.0
+  },
+  {
+    "label": "Salle de Conférence",
+    "node_id": "B24",
+    "scale_factor": 1.0
+  },
+  {
+    "label": "TD1",
+    "node_id": "salles_td_1",
+    "scale_factor": 1.0
+  },
+  {
+    "label": "TD2",
+    "node_id": "salles_td_2",
+    "scale_factor": 1.0
+  },
+  {
+    "label": "TP Fabrication Mécanique",
+    "node_id": "dept_mecanique",
+    "scale_factor": 1.0
+  }
+]

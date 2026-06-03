@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENSAM Meknès — Carte Interactive du Campus</title>
+    <meta name="description" content="Carte interactive du campus de l'École Nationale Supérieure d'Arts et Métiers de Meknès. Explorez les bâtiments, départements et installations sportives.">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+
+        <!-- ── Header ──────────────────────────────────────────── -->
+        <header id="header">
+            <div class="header-left">
+                <div class="logo-icon" aria-hidden="true">
+                    <svg viewBox="0 0 32 32" fill="none"><path d="M16 2L2 10v12l14 8 14-8V10L16 2z" fill="url(#lg)"/><path d="M16 6l-10 6v8l10 6 10-6v-8L16 6z" fill="#0d1117" opacity=".45"/><defs><linearGradient id="lg" x1="2" y1="2" x2="30" y2="30"><stop stop-color="#6366f1"/><stop offset="1" stop-color="#a855f7"/></linearGradient></defs></svg>
+                </div>
+                <div class="header-text">
+                    <h1>ENSAM Meknès</h1>
+                    <p class="header-sub">Campus Interactif</p>
+                </div>
+            </div>
+
+            <div class="header-center">
+                <div class="search-container" id="searchContainer">
+                    <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+                    <input type="text" id="searchInput" placeholder="Rechercher un bâtiment…" autocomplete="off" spellcheck="false">
+                    <div id="searchResults" class="search-results"></div>
+                </div>
+            </div>
+
+            <div class="header-right">
+                <button id="legendToggle" class="header-btn" title="Légende des catégories" aria-label="Ouvrir la légende">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg>
+                </button>
+                <button id="resetView" class="header-btn" title="Réinitialiser la vue" aria-label="Réinitialiser la vue">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 9-9"/><polyline points="3 3 3 8 8 8"/></svg>
+                </button>
+            </div>
+        </header>
+
+        <!-- ── Map ─────────────────────────────────────────────── -->
+        <div id="map"></div>
+
+        <!-- ── Legend Panel ────────────────────────────────────── -->
+        <div id="legendPanel" class="side-panel legend-panel hidden">
+            <div class="panel-header">
+                <h3>Catégories</h3>
+                <button id="legendClose" class="panel-close" aria-label="Fermer">&times;</button>
+            </div>
+            <div id="legendContent" class="panel-body"></div>
+        </div>
+
+        <!-- ── Info Panel ──────────────────────────────────────── -->
+        <div id="infoPanel" class="side-panel info-panel hidden">
+            <button id="infoPanelClose" class="panel-close" aria-label="Fermer">&times;</button>
+            <div id="infoPanelContent" class="panel-body"></div>
+        </div>
+
+        <!-- ── Building Counter ────────────────────────────────── -->
+        <div id="buildingCounter" class="building-counter">
+            <svg class="counter-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18"/><path d="M9 8h1"/><path d="M9 12h1"/><path d="M9 16h1"/><path d="M14 8h1"/><path d="M14 12h1"/><path d="M14 16h1"/><path d="M5 21V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16"/></svg>
+            <span><strong id="counterNumber">0</strong> Bâtiments Disponibles</span>
+        </div>
+
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

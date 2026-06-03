@@ -1,0 +1,306 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "campus": "ENSAM Meknès",
+    "note": "Aliases are the primary performance lever of this module. Improving aliases improves resolution more than upgrading models."
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "entree_principale",
+        "label": "Entrée Principale",
+        "type": "entrance",
+        "aliases": [
+          "entrée principale", "entree principale", "entrée", "entree",
+          "porte principale", "gate", "main entrance", "main gate",
+          "المدخل الرئيسي", "المدخل", "باب المدرسة", "باب"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "administration_1",
+        "label": "Administration I",
+        "type": "administration",
+        "aliases": [
+          "administration 1", "administration i", "admin 1", "admin i",
+            "admin", "administration", "bâtiment administratif", "direction",
+            "الإدارة 1", "الإدارة الأولى", "الإدارة", "للإدارة", "الادارة", "للإدارة"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "administration_2",
+        "label": "Administration II",
+        "type": "administration",
+        "aliases": [
+          "administration 2", "administration ii", "admin 2", "admin ii",
+          "admin deux", "deuxième administration", "second admin",
+          "الإدارة 2", "الإدارة الثانية"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "forum",
+        "label": "Forum",
+        "type": "student_space",
+        "aliases": [
+          "forum", "espace étudiant", "espace etudiants", "salle commune",
+          "student space", "common area", "الفوروم", "المنتدى"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "bibliotheque",
+        "label": "Bibliothèque",
+        "type": "library",
+        "aliases": [
+          "bibliothèque", "bibliotheque", "bib", "biblio", "library",
+          "médiathèque", "mediatheque", "المكتبة", "مكتبة"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "centre_langues",
+        "label": "Centre de Langues",
+        "type": "language_center",
+        "aliases": [
+          "centre de langues", "center de langues", "langues", "languages",
+          "language center", "centre langues", "lang",
+          "مركز اللغات", "اللغات"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "amphi_450",
+        "label": "Amphi 450",
+        "type": "amphitheater",
+        "aliases": [
+          "amphi 450", "amphithéâtre 450", "amphitheatre 450",
+          "grand amphi", "grande salle", "amphi450", "450",
+          "المدرج 450", "المدرج الكبير"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "amphi_250",
+        "label": "Amphi 250",
+        "type": "amphitheater",
+        "aliases": [
+          "amphi 250", "amphithéâtre 250", "amphitheatre 250",
+          "amphi250", "250",
+          "المدرج 250", "المدرج الصغير"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "salles_td_1",
+        "label": "Salles des Travaux Dirigés I",
+        "type": "classroom",
+        "aliases": [
+          "travaux dirigés 1", "travaux diriges 1", "td 1", "td1",
+          "salles td 1", "salle td i", "salle td1", "td i", "bloc td 1",
+          "directed study rooms 1",
+          "قاعات الأعمال الموجهة 1", "قاعة td1", "td"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "salles_td_2",
+        "label": "Salles des Travaux Dirigés II",
+        "type": "classroom",
+        "aliases": [
+          "travaux dirigés 2", "travaux diriges 2", "td 2", "td2",
+          "salles td 2", "salle td ii", "salle td2", "td ii", "bloc td 2",
+          "directed study rooms 2",
+          "قاعات الأعمال الموجهة 2", "قاعة td2"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "atelier_maintenance",
+        "label": "Atelier de Maintenance",
+        "type": "workshop",
+        "aliases": [
+          "atelier de maintenance", "atelier maintenance", "maintenance",
+          "atelier", "workshop", "maintenance workshop",
+          "ورشة الصيانة", "الصيانة"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "dept_industrialisation",
+        "label": "Département de Génie Industriel et Productique",
+        "type": "department",
+        "aliases": [
+          "génie industriel", "genie industriel", "industriel", "productique",
+          "department génie industriel", "dept industriel", "gip",
+          "génie industriel et productique", "industrial engineering",
+          "الهندسة الصناعية", "هندسة الإنتاج"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "dept_math_info",
+        "label": "Département Mathématiques, Informatique, Culture, Sciences de l'Homme et de la Société",
+        "type": "department",
+        "aliases": [
+          "mics", "mathématiques informatique", "math info",
+          "département mics", "dept mics", "informatique",
+          "sciences humaines", "mathématiques", "math",
+          "computer science", "mathematics",
+          "المعلوميات", "الرياضيات", "الإعلام الآلي"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "dept_automatique",
+        "label": "Département Automatique, Electronique, Electrotechnique et Electromécanique",
+        "type": "department",
+        "aliases": [
+          "aeee", "automatique", "électronique", "electronique",
+          "électrotechnique", "electrotechnique", "électromécanique",
+          "electromecanique", "électrique", "electrique", "electro",
+          "automation", "electronics", "electrical", "dept aeee",
+          "génie électrique", "genie electrique",
+          "الكهرباء", "الأتمتة", "الإلكترونيك", "هندسة كهربائية"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "centre_recherche",
+        "label": "Centre de Recherche Scientifique et d'Innovation Technologique",
+        "type": "research_center",
+        "aliases": [
+          "centre de recherche", "centre recherche", "recherche scientifique",
+          "recherche", "labo recherche", "research center", "innovation",
+          "crit", "centre innovation",
+          "مركز البحث العلمي", "مركز الأبحاث", "البحث العلمي"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "dept_mecanique",
+        "label": "Département Génie Mécanique et Structures",
+        "type": "department",
+        "aliases": [
+          "génie mécanique", "genie mecanique", "mécanique", "mecanique",
+          "structures", "gms", "dept gms", "département mécanique",
+          "mechanical engineering", "structural engineering",
+          "الهندسة الميكانيكية", "الميكانيك", "الهياكل"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "buvette",
+        "label": "Buvette des Etudiants",
+        "type": "cafeteria",
+        "aliases": [
+          "buvette", "buvette des étudiants", "buvette etudiants",
+          "cafétéria", "cafeteria", "snack", "restaurant",
+          "café", "coffee", "cantine", "bar",
+          "المقهى", "الكافيتيريا", "المطعم"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "labo_civil",
+        "label": "Laboratoires de Génie Civil",
+        "type": "laboratory",
+        "aliases": [
+          "génie civil", "genie civil", "labo civil", "laboratoire civil",
+          "laboratoires génie civil", "civil engineering", "labo gc",
+          "الهندسة المدنية", "مختبر الهندسة المدنية", "هندسة مدنية"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "dept_energetique",
+        "label": "Département Énergétique",
+        "type": "department",
+        "aliases": [
+          "énergétique", "energetique", "énergie", "energie",
+          "département énergétique", "dept energetique",
+          "energy department", "thermodynamique", "thermodynamics",
+          "الطاقة", "هندسة الطاقة", "الطاقات المتجددة"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "dept_materiaux",
+        "label": "Département Matériaux et Procédés",
+        "type": "department",
+        "aliases": [
+          "matériaux et procédés", "materiaux et procedes",
+          "matériaux", "materiaux", "procédés", "procedes",
+          "dept materiaux", "materials", "materials science",
+          "المواد والعمليات", "علم المواد", "المواد"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "labo_forge",
+        "label": "Laboratoires Forge et Fonderie",
+        "type": "laboratory",
+        "aliases": [
+          "forge et fonderie", "forge", "fonderie", "labo forge",
+          "laboratoire forge", "metalworking", "casting",
+          "الحدادة والصهر", "مختبر الحدادة", "الصهر"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "B24",
+        "label": "Salle de Conférence",
+        "type": "room",
+        "aliases": [
+          "salle de conférence", "salle conference", "conférence", "conference",
+          "salle conf", "conference room", "قاعة المؤتمرات", "قاعة المؤتمر",
+          "قاعة الندوات"
+        ]
+      }
+    }
+  ]
+}

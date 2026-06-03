@@ -1,0 +1,7 @@
+torch
+requests
+ollama
+llama-cpp-python
+rapidfuzz
+pyyaml
+numpy

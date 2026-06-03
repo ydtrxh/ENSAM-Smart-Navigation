@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SVG Campus Graph Editor</title>
+  <link rel="stylesheet" href="svg_graph_editor.css">
+</head>
+<body>
+  <main class="app-shell">
+    <aside class="sidebar">
+      <section class="panel">
+        <h1>SVG Graph Editor</h1>
+        <p class="muted">Build `campus_graph.json` directly on top of the SVG coordinate system.</p>
+      </section>
+
+      <section class="panel">
+        <h2>Files</h2>
+        <label class="file-control">
+          <span>Load SVG map</span>
+          <input id="svgInput" type="file" accept=".svg,image/svg+xml">
+        </label>
+        <button id="loadDefaultSvgBtn" type="button">Load default SVG</button>
+        <label class="file-control">
+          <span>Import campus_graph.json</span>
+          <input id="graphInput" type="file" accept=".json,application/json">
+        </label>
+        <button id="exportBtn" type="button">Export campus_graph.json</button>
+      </section>
+
+      <section class="panel">
+        <h2>Mode</h2>
+        <div class="segmented">
+          <button class="mode-btn active" data-mode="select" type="button">Select</button>
+          <button class="mode-btn" data-mode="node" type="button">Node</button>
+          <button class="mode-btn" data-mode="edge" type="button">Edge</button>
+        </div>
+        <p id="modeHint" class="hint">Select, drag, and edit existing nodes.</p>
+      </section>
+
+      <section class="panel">
+        <h2>Selected Node</h2>
+        <form id="nodeForm" class="form-grid">
+          <label>
+            id
+            <input id="nodeId" type="text" autocomplete="off">
+          </label>
+          <label>
+            label
+            <input id="nodeLabel" type="text" autocomplete="off">
+          </label>
+          <label>
+            node_role
+            <select id="nodeRole">
+              <option value="building">building</option>
+              <option value="entrance">entrance</option>
+              <option value="waypoint">waypoint</option>
+              <option value="intersection">intersection</option>
+            </select>
+          </label>
+          <label class="check-row">
+            <input id="visibleDestination" type="checkbox">
+            visible_destination
+          </label>
+          <label>
+            x
+            <input id="nodeX" type="number" step="0.01">
+          </label>
+          <label>
+            y
+            <input id="nodeY" type="number" step="0.01">
+          </label>
+          <button id="applyNodeBtn" type="submit">Apply node changes</button>
+        </form>
+      </section>
+
+      <section class="panel">
+        <h2>Selected Edge</h2>
+        <div id="edgeInfo" class="edge-info muted">No edge selected.</div>
+      </section>
+
+      <section class="panel">
+        <h2>Actions</h2>
+        <button id="deleteBtn" type="button">Delete selected</button>
+        <button id="clearSelectionBtn" type="button">Clear selection</button>
+        <button id="fitBtn" type="button">Fit map</button>
+      </section>
+
+      <section class="panel stats">
+        <div><strong id="nodeCount">0</strong> nodes</div>
+        <div><strong id="edgeCount">0</strong> edges</div>
+        <div id="cursorCoords">x: -, y: -</div>
+      </section>
+    </aside>
+
+    <section class="workspace">
+      <div class="toolbar">
+        <div>
+          <strong id="mapName">No SVG loaded</strong>
+          <span id="svgMeta" class="muted"></span>
+        </div>
+        <div class="legend">
+          <span><i class="dot building"></i>building</span>
+          <span><i class="dot entrance"></i>entrance</span>
+          <span><i class="dot waypoint"></i>waypoint</span>
+          <span><i class="dot intersection"></i>intersection</span>
+        </div>
+      </div>
+      <div id="canvasWrap" class="canvas-wrap">
+        <div id="emptyState" class="empty-state">
+          <strong>Load an SVG map to begin.</strong>
+          <span>Then click in Node mode to add navigation points.</span>
+        </div>
+        <div id="svgHost" class="svg-host"></div>
+      </div>
+    </section>
+  </main>
+
+  <script src="svg_graph_editor.js"></script>
+</body>
+</html>

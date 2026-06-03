@@ -1,0 +1,1862 @@
+{
+  "departments": {},
+  "nodes": [
+    {
+      "id": "N_ENTRANCE",
+      "name": "N_ENTRANCE",
+      "coords": [
+        222,
+        11
+      ],
+      "lat": 11,
+      "lon": 222,
+      "type": "Couloir/Intersection"
+    },
+    {
+      "id": "N_SPINE_TOP",
+      "name": "N_SPINE_TOP",
+      "coords": [
+        222,
+        72
+      ],
+      "lat": 72,
+      "lon": 222,
+      "type": "Couloir/Intersection"
+    },
+    {
+      "id": "N_SPINE_MID",
+      "name": "N_SPINE_MID",
+      "coords": [
+        222,
+        150
+      ],
+      "lat": 150,
+      "lon": 222,
+      "type": "Couloir/Intersection"
+    },
+    {
+      "id": "N_ADMIN1",
+      "name": "N_ADMIN1",
+      "coords": [
+        222,
+        189
+      ],
+      "lat": 189,
+      "lon": 222,
+      "type": "Couloir/Intersection"
+    },
+    {
+      "id": "N_FORUM",
+      "name": "N_FORUM",
+      "coords": [
+        222,
+        261
+      ],
+      "lat": 261,
+      "lon": 222,
+      "type": "Couloir/Intersection"
+    },
+    {
+      "id": "N_CROSS1",
+      "name": "N_CROSS1",
+      "coords": [
+        222,
+        283
+      ],
+      "lat": 283,
+      "lon": 222,
+      "type": "Couloir/Intersection"
+    },
+    {
+      "id": "N_ADMIN2_W",
+      "name": "N_ADMIN2_W",
+      "coords": [
+        194,
+        283
+      ],
+      "lat": 283,
+      "lon": 194,
+      "type": "Couloir/Intersection"
+    },
+    {
+      "id": "N_ADMIN2",
+      "name": "N_ADMIN2",
+      "coords": [
+        156,
+        295
+      ],
+      "lat": 295,
+      "lon": 156,
+      "type": "Couloir/Intersection"
+    },
+    {
+      "id": "N_CROSS2",
+      "name": "N_CROSS2",
+      "coords": [
+        328,
+        283
+      ],
+      "lat": 283,
+      "lon": 328,
+      "type": "Couloir/Intersection"
+    },
+    {
+      "id": "N_CROSS3",
+      "name": "N_CROSS3",
+      "coords": [
+        406,
+        283
+      ],
+      "lat": 283,
+      "lon": 406,
+      "type": "Couloir/Intersection"
+    },
+    {
+      "id": "N_EAST1",
+      "name": "N_EAST1",
+      "coords": [
+        500,
+        283
+      ],
+      "lat": 283,
+      "lon": 500,
+      "type": "Couloir/Intersection"
+    },
+    {
+      "id": "N_EAST2",
+      "name": "N_EAST2",
+      "coords": [
+        589,
+        283
+      ],
+      "lat": 283,
+      "lon": 589,
+      "type": "Couloir/Intersection"
+    },
+    {
+      "id": "N_EAST3",
+      "name": "N_EAST3",
+      "coords": [
+        639,
+        260
+      ],
+      "lat": 260,
+      "lon": 639,
+      "type": "Couloir/Intersection"
+    },
+    {
+      "id": "N_EAST4",
+      "name": "N_EAST4",
+      "coords": [
+        692,
+        240
+      ],
+      "lat": 240,
+      "lon": 692,
+      "type": "Couloir/Intersection"
+    },
+    {
+      "id": "N_AMPHI250",
+      "name": "N_AMPHI250",
+      "coords": [
+        744,
+        236
+      ],
+      "lat": 236,
+      "lon": 744,
+      "type": "Couloir/Intersection"
+    },
+    {
+      "id": "N_ADMIN_N",
+      "name": "N_ADMIN_N",
+      "coords": [
+        206,
+        372
+      ],
+      "lat": 372,
+      "lon": 206,
+      "type": "Couloir/Intersection"
+    },
+    {
+      "id": "N_BIB_N",
+      "name": "N_BIB_N",
+      "coords": [
+        206,
+        436
+      ],
+      "lat": 436,
+      "lon": 206,
+      "type": "Couloir/Intersection"
+    },
+    {
+      "id": "N_CLANG_MID",
+      "name": "N_CLANG_MID",
+      "coords": [
+        183,
+        460
+      ],
+      "lat": 460,
+      "lon": 183,
+      "type": "Couloir/Intersection"
+    },
+    {
+      "id": "N_CLANG",
+      "name": "N_CLANG",
+      "coords": [
+        141,
+        490
+      ],
+      "lat": 490,
+      "lon": 141,
+      "type": "Couloir/Intersection"
+    },
+    {
+      "id": "N_CLANG_S",
+      "name": "N_CLANG_S",
+      "coords": [
+        98,
+        506
+      ],
+      "lat": 506,
+      "lon": 98,
+      "type": "Couloir/Intersection"
+    },
+    {
+      "id": "N_AMPHI450_N",
+      "name": "N_AMPHI450_N",
+      "coords": [
+        211,
+        470
+      ],
+      "lat": 470,
+      "lon": 211,
+      "type": "Couloir/Intersection"
+    },
+    {
+      "id": "N_AMPHI450",
+      "name": "N_AMPHI450",
+      "coords": [
+        211,
+        517
+      ],
+      "lat": 517,
+      "lon": 211,
+      "type": "Couloir/Intersection"
+    },
+    {
+      "id": "N_AMPHI450_S",
+      "name": "N_AMPHI450_S",
+      "coords": [
+        211,
+        576
+      ],
+      "lat": 576,
+      "lon": 211,
+      "type": "Couloir/Intersection"
+    },
+    {
+      "id": "N_DEPT_W",
+      "name": "N_DEPT_W",
+      "coords": [
+        278,
+        517
+      ],
+      "lat": 517,
+      "lon": 278,
+      "type": "Couloir/Intersection"
+    },
+    {
+      "id": "N_DEPT_MID",
+      "name": "N_DEPT_MID",
+      "coords": [
+        367,
+        510
+      ],
+      "lat": 510,
+      "lon": 367,
+      "type": "Couloir/Intersection"
+    },
+    {
+      "id": "N_DEPT_N1",
+      "name": "N_DEPT_N1",
+      "coords": [
+        367,
+        500
+      ],
+      "lat": 500,
+      "lon": 367,
+      "type": "Couloir/Intersection"
+    },
+    {
+      "id": "N_DEPT_N2",
+      "name": "N_DEPT_N2",
+      "coords": [
+        367,
+        439
+      ],
+      "lat": 439,
+      "lon": 367,
+      "type": "Couloir/Intersection"
+    },
+    {
+      "id": "N_DEPT_NE",
+      "name": "N_DEPT_NE",
+      "coords": [
+        411,
+        400
+      ],
+      "lat": 400,
+      "lon": 411,
+      "type": "Couloir/Intersection"
+    },
+    {
+      "id": "N_DEPT_NE2",
+      "name": "N_DEPT_NE2",
+      "coords": [
+        411,
+        356
+      ],
+      "lat": 356,
+      "lon": 411,
+      "type": "Couloir/Intersection"
+    },
+    {
+      "id": "N_DEPT_S",
+      "name": "N_DEPT_S",
+      "coords": [
+        367,
+        580
+      ],
+      "lat": 580,
+      "lon": 367,
+      "type": "Couloir/Intersection"
+    },
+    {
+      "id": "N_LAB_W",
+      "name": "N_LAB_W",
+      "coords": [
+        550,
+        500
+      ],
+      "lat": 500,
+      "lon": 550,
+      "type": "Couloir/Intersection"
+    },
+    {
+      "id": "N_LAB_MID",
+      "name": "N_LAB_MID",
+      "coords": [
+        550,
+        460
+      ],
+      "lat": 460,
+      "lon": 550,
+      "type": "Couloir/Intersection"
+    },
+    {
+      "id": "N_LAB_E1",
+      "name": "N_LAB_E1",
+      "coords": [
+        706,
+        450
+      ],
+      "lat": 450,
+      "lon": 706,
+      "type": "Couloir/Intersection"
+    },
+    {
+      "id": "N_LAB_E2",
+      "name": "N_LAB_E2",
+      "coords": [
+        706,
+        436
+      ],
+      "lat": 436,
+      "lon": 706,
+      "type": "Couloir/Intersection"
+    },
+    {
+      "id": "N_RECH",
+      "name": "N_RECH",
+      "coords": [
+        739,
+        394
+      ],
+      "lat": 394,
+      "lon": 739,
+      "type": "Couloir/Intersection"
+    },
+    {
+      "id": "N_GMS_W",
+      "name": "N_GMS_W",
+      "coords": [
+        739,
+        358
+      ],
+      "lat": 358,
+      "lon": 739,
+      "type": "Couloir/Intersection"
+    },
+    {
+      "id": "N_GMS_MAIN",
+      "name": "N_GMS_MAIN",
+      "coords": [
+        889,
+        358
+      ],
+      "lat": 358,
+      "lon": 889,
+      "type": "Couloir/Intersection"
+    },
+    {
+      "id": "N_GMS_N",
+      "name": "N_GMS_N",
+      "coords": [
+        950,
+        350
+      ],
+      "lat": 350,
+      "lon": 950,
+      "type": "Couloir/Intersection"
+    },
+    {
+      "id": "N_GMS_TOP",
+      "name": "N_GMS_TOP",
+      "coords": [
+        950,
+        322
+      ],
+      "lat": 322,
+      "lon": 950,
+      "type": "Couloir/Intersection"
+    },
+    {
+      "id": "N_GMS_E",
+      "name": "N_GMS_E",
+      "coords": [
+        1194,
+        372
+      ],
+      "lat": 372,
+      "lon": 1194,
+      "type": "Couloir/Intersection"
+    },
+    {
+      "id": "N_GMS_E_TOP",
+      "name": "N_GMS_E_TOP",
+      "coords": [
+        1194,
+        322
+      ],
+      "lat": 322,
+      "lon": 1194,
+      "type": "Couloir/Intersection"
+    },
+    {
+      "id": "N_SPORT_N",
+      "name": "N_SPORT_N",
+      "coords": [
+        1044,
+        400
+      ],
+      "lat": 400,
+      "lon": 1044,
+      "type": "Couloir/Intersection"
+    },
+    {
+      "id": "N_SPORT_MID",
+      "name": "N_SPORT_MID",
+      "coords": [
+        1044,
+        467
+      ],
+      "lat": 467,
+      "lon": 1044,
+      "type": "Couloir/Intersection"
+    },
+    {
+      "id": "N_SPORT_E1",
+      "name": "N_SPORT_E1",
+      "coords": [
+        1111,
+        467
+      ],
+      "lat": 467,
+      "lon": 1111,
+      "type": "Couloir/Intersection"
+    },
+    {
+      "id": "N_SPORT_E2",
+      "name": "N_SPORT_E2",
+      "coords": [
+        1178,
+        467
+      ],
+      "lat": 467,
+      "lon": 1178,
+      "type": "Couloir/Intersection"
+    },
+    {
+      "id": "N_SPORT_E3",
+      "name": "N_SPORT_E3",
+      "coords": [
+        1244,
+        467
+      ],
+      "lat": 467,
+      "lon": 1244,
+      "type": "Couloir/Intersection"
+    },
+    {
+      "id": "N_FOOT",
+      "name": "N_FOOT",
+      "coords": [
+        1370,
+        467
+      ],
+      "lat": 467,
+      "lon": 1370,
+      "type": "Couloir/Intersection"
+    },
+    {
+      "id": "N_BUV",
+      "name": "N_BUV",
+      "coords": [
+        1000,
+        464
+      ],
+      "lat": 464,
+      "lon": 1000,
+      "type": "Couloir/Intersection"
+    },
+    {
+      "id": "N_ENER_N",
+      "name": "N_ENER_N",
+      "coords": [
+        1012,
+        500
+      ],
+      "lat": 500,
+      "lon": 1012,
+      "type": "Couloir/Intersection"
+    },
+    {
+      "id": "N_ENER",
+      "name": "N_ENER",
+      "coords": [
+        1012,
+        522
+      ],
+      "lat": 522,
+      "lon": 1012,
+      "type": "Couloir/Intersection"
+    },
+    {
+      "id": "N_MOSQUE_N",
+      "name": "N_MOSQUE_N",
+      "coords": [
+        183,
+        628
+      ],
+      "lat": 628,
+      "lon": 183,
+      "type": "Couloir/Intersection"
+    },
+    {
+      "id": "N_MOSQUE",
+      "name": "N_MOSQUE",
+      "coords": [
+        183,
+        717
+      ],
+      "lat": 717,
+      "lon": 183,
+      "type": "Couloir/Intersection"
+    },
+    {
+      "id": "N_CONF",
+      "name": "N_CONF",
+      "coords": [
+        283,
+        717
+      ],
+      "lat": 717,
+      "lon": 283,
+      "type": "Couloir/Intersection"
+    },
+    {
+      "id": "N_CONF_E",
+      "name": "N_CONF_E",
+      "coords": [
+        428,
+        748
+      ],
+      "lat": 748,
+      "lon": 428,
+      "type": "Couloir/Intersection"
+    },
+    {
+      "id": "N_SPORT_SUD",
+      "name": "N_SPORT_SUD",
+      "coords": [
+        661,
+        748
+      ],
+      "lat": 748,
+      "lon": 661,
+      "type": "Couloir/Intersection"
+    },
+    {
+      "id": "N_SPORT_SUD_S",
+      "name": "N_SPORT_SUD_S",
+      "coords": [
+        661,
+        780
+      ],
+      "lat": 780,
+      "lon": 661,
+      "type": "Couloir/Intersection"
+    },
+    {
+      "id": "N_SPORT_SUD_E",
+      "name": "N_SPORT_SUD_E",
+      "coords": [
+        800,
+        780
+      ],
+      "lat": 780,
+      "lon": 800,
+      "type": "Couloir/Intersection"
+    },
+    {
+      "id": "N_SPORT_SUD_E2",
+      "name": "N_SPORT_SUD_E2",
+      "coords": [
+        800,
+        733
+      ],
+      "lat": 733,
+      "lon": 800,
+      "type": "Couloir/Intersection"
+    },
+    {
+      "id": "N_DEPT_MAT_N",
+      "name": "N_DEPT_MAT_N",
+      "coords": [
+        756,
+        748
+      ],
+      "lat": 748,
+      "lon": 756,
+      "type": "Couloir/Intersection"
+    },
+    {
+      "id": "N_DEPT_MAT",
+      "name": "N_DEPT_MAT",
+      "coords": [
+        951,
+        748
+      ],
+      "lat": 748,
+      "lon": 951,
+      "type": "Couloir/Intersection"
+    },
+    {
+      "id": "N_DEPT_MAT_N2",
+      "name": "N_DEPT_MAT_N2",
+      "coords": [
+        951,
+        700
+      ],
+      "lat": 700,
+      "lon": 951,
+      "type": "Couloir/Intersection"
+    },
+    {
+      "id": "N_DEPT_MAT_S",
+      "name": "N_DEPT_MAT_S",
+      "coords": [
+        951,
+        650
+      ],
+      "lat": 650,
+      "lon": 951,
+      "type": "Couloir/Intersection"
+    },
+    {
+      "id": "N_VOLLEY_W",
+      "name": "N_VOLLEY_W",
+      "coords": [
+        1100,
+        650
+      ],
+      "lat": 650,
+      "lon": 1100,
+      "type": "Couloir/Intersection"
+    },
+    {
+      "id": "N_VOLLEY",
+      "name": "N_VOLLEY",
+      "coords": [
+        1161,
+        650
+      ],
+      "lat": 650,
+      "lon": 1161,
+      "type": "Couloir/Intersection"
+    },
+    {
+      "id": "N_VOLLEY_S",
+      "name": "N_VOLLEY_S",
+      "coords": [
+        1161,
+        680
+      ],
+      "lat": 680,
+      "lon": 1161,
+      "type": "Couloir/Intersection"
+    },
+    {
+      "id": "N_VOLLEY_E",
+      "name": "N_VOLLEY_E",
+      "coords": [
+        1338,
+        680
+      ],
+      "lat": 680,
+      "lon": 1338,
+      "type": "Couloir/Intersection"
+    },
+    {
+      "id": "N_PARK_S",
+      "name": "N_PARK_S",
+      "coords": [
+        500,
+        233
+      ],
+      "lat": 233,
+      "lon": 500,
+      "type": "Couloir/Intersection"
+    },
+    {
+      "id": "N_PARK_N",
+      "name": "N_PARK_N",
+      "coords": [
+        500,
+        172
+      ],
+      "lat": 172,
+      "lon": 500,
+      "type": "Couloir/Intersection"
+    },
+    {
+      "id": "N_PARK_NE",
+      "name": "N_PARK_NE",
+      "coords": [
+        533,
+        144
+      ],
+      "lat": 144,
+      "lon": 533,
+      "type": "Couloir/Intersection"
+    },
+    {
+      "id": "N_PARK_TOP",
+      "name": "N_PARK_TOP",
+      "coords": [
+        533,
+        100
+      ],
+      "lat": 100,
+      "lon": 533,
+      "type": "Couloir/Intersection"
+    },
+    {
+      "id": "N_PARK_E",
+      "name": "N_PARK_E",
+      "coords": [
+        667,
+        100
+      ],
+      "lat": 100,
+      "lon": 667,
+      "type": "Couloir/Intersection"
+    },
+    {
+      "id": "N_ATEL_W",
+      "name": "N_ATEL_W",
+      "coords": [
+        478,
+        210
+      ],
+      "lat": 210,
+      "lon": 478,
+      "type": "Couloir/Intersection"
+    },
+    {
+      "id": "N_ATEL_E",
+      "name": "N_ATEL_E",
+      "coords": [
+        639,
+        210
+      ],
+      "lat": 210,
+      "lon": 639,
+      "type": "Couloir/Intersection"
+    },
+    {
+      "id": "N_SPORT_CN",
+      "name": "N_SPORT_CN",
+      "coords": [
+        1111,
+        533
+      ],
+      "lat": 533,
+      "lon": 1111,
+      "type": "Couloir/Intersection"
+    },
+    {
+      "id": "N_SPORT_CS",
+      "name": "N_SPORT_CS",
+      "coords": [
+        1111,
+        600
+      ],
+      "lat": 600,
+      "lon": 1111,
+      "type": "Couloir/Intersection"
+    },
+    {
+      "id": "N_BIB_LINK",
+      "name": "N_BIB_LINK",
+      "coords": [
+        222,
+        344
+      ],
+      "lat": 344,
+      "lon": 222,
+      "type": "Couloir/Intersection"
+    },
+    {
+      "id": "N_CLANG_S2",
+      "name": "N_CLANG_S2",
+      "coords": [
+        141,
+        560
+      ],
+      "lat": 560,
+      "lon": 141,
+      "type": "Couloir/Intersection"
+    },
+    {
+      "id": "B01",
+      "name": "Complexe Sportif de l'Université Moulay Ismail",
+      "coords": [
+        671.1428571428571,
+        677.1428571428571
+      ],
+      "lat": 677.1428571428571,
+      "lon": 671.1428571428571,
+      "type": "Sports Facilities",
+      "description": "Main university sports complex featuring indoor courts, athletics facilities, and multi-purpose sports halls for student and competitive events."
+    },
+    {
+      "id": "B02",
+      "name": "Logements de Fonction",
+      "coords": [
+        396.0,
+        762.0
+      ],
+      "lat": 762.0,
+      "lon": 396.0,
+      "type": "Residential",
+      "description": "On-campus residential accommodations for faculty, administrative staff, and visiting professors of the university."
+    },
+    {
+      "id": "labo_forge",
+      "name": "Laboratoires Forge et Fonderie",
+      "coords": [
+        1231.8,
+        690.4
+      ],
+      "lat": 690.4,
+      "lon": 1231.8,
+      "type": "Laboratories",
+      "description": "Specialized forge and foundry laboratories equipped for metalworking, casting, heat treatment, and materials processing experiments."
+    },
+    {
+      "id": "dept_materiaux",
+      "name": "Département Matériaux et Procédés",
+      "coords": [
+        1041.0,
+        614.4
+      ],
+      "lat": 614.4,
+      "lon": 1041.0,
+      "type": "Academic Departments",
+      "description": "Department of Materials Science and Manufacturing Processes, covering metallurgy, polymers, composites, and production engineering."
+    },
+    {
+      "id": "amphi_450",
+      "name": "Amphi 450",
+      "coords": [
+        211.0,
+        528.8
+      ],
+      "lat": 528.8,
+      "lon": 211.0,
+      "type": "Amphitheaters",
+      "description": "Large amphitheater with a seating capacity of 450 students, used for major academic lectures, conferences, and university events."
+    },
+    {
+      "id": "dept_math_info",
+      "name": "Département Mathématiques, Informatique, Culture, Sciences de l'Homme et de la Société",
+      "coords": [
+        440.2,
+        548.0
+      ],
+      "lat": 548.0,
+      "lon": 440.2,
+      "type": "Academic Departments",
+      "description": "Interdisciplinary department covering mathematics, computer science, humanities, social sciences, and cultural studies."
+    },
+    {
+      "id": "dept_industrialisation",
+      "name": "Département de Génie Industriel et Productique",
+      "coords": [
+        440.2,
+        475.6
+      ],
+      "lat": 475.6,
+      "lon": 440.2,
+      "type": "Academic Departments",
+      "description": "Department of Industrial Engineering and Production Systems, covering manufacturing processes, quality management, and lean production."
+    },
+    {
+      "id": "dept_automatique",
+      "name": "Département Automatique, Electronique, Electrotechnique et Electromécanique",
+      "coords": [
+        614.8,
+        473.2
+      ],
+      "lat": 473.2,
+      "lon": 614.8,
+      "type": "Academic Departments",
+      "description": "Department covering automation, electronics, electrical engineering, and electromechanical systems including robotics and power systems."
+    },
+    {
+      "id": "centre_langues",
+      "name": "Centre de Langues",
+      "coords": [
+        132.0,
+        474.8
+      ],
+      "lat": 474.8,
+      "lon": 132.0,
+      "type": "Academic Services",
+      "description": "Language center offering courses in Arabic, French, English, and other languages, supporting academic and professional communication skills."
+    },
+    {
+      "id": "B10",
+      "name": "Département Energétique",
+      "coords": [
+        1012.0,
+        532.0
+      ],
+      "lat": 532.0,
+      "lon": 1012.0,
+      "type": "Academic Departments",
+      "description": "Department of Energy Engineering covering thermodynamics, renewable energy, fluid mechanics, and sustainable energy systems design."
+    },
+    {
+      "id": "labo_civil",
+      "name": "Laboratoires de Génie Civil",
+      "coords": [
+        772.4,
+        443.2
+      ],
+      "lat": 443.2,
+      "lon": 772.4,
+      "type": "Laboratories",
+      "description": "Civil engineering laboratories equipped for structural testing, soil mechanics analysis, hydraulics experiments, and materials characterization."
+    },
+    {
+      "id": "buvette",
+      "name": "Buvette des Etudiants",
+      "coords": [
+        983.4,
+        449.6
+      ],
+      "lat": 449.6,
+      "lon": 983.4,
+      "type": "Student Services",
+      "description": "Student cafeteria and refreshment area offering snacks, beverages, and light meals for students and staff throughout the day."
+    },
+    {
+      "id": "dept_mecanique",
+      "name": "Département Génie Mécanique et Structures",
+      "coords": [
+        1047.6,
+        382.0
+      ],
+      "lat": 382.0,
+      "lon": 1047.6,
+      "type": "Academic Departments",
+      "description": "Department of Mechanical Engineering and Structural Analysis, covering machine design, solid mechanics, finite element analysis, and vibration."
+    },
+    {
+      "id": "bibliotheque",
+      "name": "Bibliothèque",
+      "coords": [
+        193.2,
+        410.4
+      ],
+      "lat": 410.4,
+      "lon": 193.2,
+      "type": "Libraries",
+      "description": "University library providing access to academic books, scientific journals, digital databases, study spaces, and research resources."
+    },
+    {
+      "id": "centre_recherche",
+      "name": "Centre de Recherche Scientifique et d'Innovation Technologique",
+      "coords": [
+        799.0,
+        365.2
+      ],
+      "lat": 365.2,
+      "lon": 799.0,
+      "type": "Laboratories",
+      "description": "Scientific research and technological innovation center hosting interdisciplinary research projects, doctoral studies, and industry partnerships."
+    },
+    {
+      "id": "salles_td_1",
+      "name": "Salles des Travaux Dirigés I",
+      "coords": [
+        482.2,
+        329.2
+      ],
+      "lat": 329.2,
+      "lon": 482.2,
+      "type": "Academic Services",
+      "description": "Tutorial and directed study rooms - Block I, providing spaces for small-group academic sessions, workshops, and practical exercises."
+    },
+    {
+      "id": "salles_td_2",
+      "name": "Salles des Travaux Dirigés II",
+      "coords": [
+        479.2,
+        266.6
+      ],
+      "lat": 266.6,
+      "lon": 479.2,
+      "type": "Academic Services",
+      "description": "Tutorial and directed study rooms - Block II, additional spaces for practical academic sessions and student study groups."
+    },
+    {
+      "id": "atelier_maintenance",
+      "name": "Atelier de Maintenance",
+      "coords": [
+        542.4,
+        208.6
+      ],
+      "lat": 208.6,
+      "lon": 542.4,
+      "type": "Academic Services",
+      "description": "Maintenance workshop housing tools and equipment for campus facility upkeep, as well as practical training for engineering students."
+    },
+    {
+      "id": "amphi_250",
+      "name": "Amphi 250",
+      "coords": [
+        681.0,
+        244.4
+      ],
+      "lat": 244.4,
+      "lon": 681.0,
+      "type": "Amphitheaters",
+      "description": "Amphitheater with a seating capacity of 250, used for academic lectures, departmental events, and student presentations."
+    },
+    {
+      "id": "administration_1",
+      "name": "Administration I",
+      "coords": [
+        247.6,
+        232.2
+      ],
+      "lat": 232.2,
+      "lon": 247.6,
+      "type": "Administration",
+      "description": "Main administrative building housing the director's office, student registration services, finance department, and principal administrative functions."
+    },
+    {
+      "id": "administration_2",
+      "name": "Administration II",
+      "coords": [
+        281.4,
+        319.6
+      ],
+      "lat": 319.6,
+      "lon": 281.4,
+      "type": "Administration",
+      "description": "Secondary administrative offices handling academic affairs, faculty management, scheduling, and departmental coordination."
+    },
+    {
+      "id": "forum",
+      "name": "Forum",
+      "coords": [
+        182.4,
+        302.0
+      ],
+      "lat": 302.0,
+      "lon": 182.4,
+      "type": "Student Services",
+      "description": "Student forum and gathering space, used for information bulletins, student association activities, and campus social events."
+    },
+    {
+      "id": "B23",
+      "name": "Mosquée",
+      "coords": [
+        223.0,
+        681.4
+      ],
+      "lat": 681.4,
+      "lon": 223.0,
+      "type": "Student Services",
+      "description": "Campus mosque providing a space for daily prayers and religious activities for Muslim students and staff."
+    },
+    {
+      "id": "B24",
+      "name": "Salle de Conférence",
+      "coords": [
+        716.6,
+        786.4
+      ],
+      "lat": 786.4,
+      "lon": 716.6,
+      "type": "Academic Services",
+      "description": "Conference hall equipped with modern presentation technology for academic seminars, colloquia, defense sessions, and international events."
+    },
+    {
+      "id": "B25",
+      "name": "Terrain de Football",
+      "coords": [
+        1342.2,
+        496.8
+      ],
+      "lat": 496.8,
+      "lon": 1342.2,
+      "type": "Sports Facilities",
+      "description": "Regulation football (soccer) field for student sports activities, university team training, and inter-university competitions."
+    },
+    {
+      "id": "B26",
+      "name": "Terrain de Basket",
+      "coords": [
+        1097.6,
+        479.8
+      ],
+      "lat": 479.8,
+      "lon": 1097.6,
+      "type": "Sports Facilities",
+      "description": "Basketball court for student recreational sports, team practice, and university competitions."
+    },
+    {
+      "id": "B27",
+      "name": "Terrain de Mini-foot",
+      "coords": [
+        1197.8,
+        479.8
+      ],
+      "lat": 479.8,
+      "lon": 1197.8,
+      "type": "Sports Facilities",
+      "description": "Small-sided football court for informal matches, recreational sports, and student fitness activities."
+    },
+    {
+      "id": "B28",
+      "name": "Terrain de Volley",
+      "coords": [
+        1157.6,
+        673.2
+      ],
+      "lat": 673.2,
+      "lon": 1157.6,
+      "type": "Sports Facilities",
+      "description": "Volleyball court for student sports activities, club practice sessions, and inter-department tournaments."
+    },
+    {
+      "id": "B29",
+      "name": "Parking",
+      "coords": [
+        586.6,
+        108.8
+      ],
+      "lat": 108.8,
+      "lon": 586.6,
+      "type": "Student Services",
+      "description": "Main campus parking area providing parking spaces for students, academic staff, and visitors to the university."
+    },
+    {
+      "id": "entree_principale",
+      "name": "Entrée Principale",
+      "coords": [
+        213.6,
+        47.6
+      ],
+      "lat": 47.6,
+      "lon": 213.6,
+      "type": "Student Services",
+      "description": "Main campus entrance gate providing access to the university for students, staff, and visitors. Security checkpoint located here."
+    }
+  ],
+  "edges": [
+    {
+      "from": "N_ENTRANCE",
+      "to": "N_SPINE_TOP",
+      "distance": 61.0,
+      "weight": 61.0
+    },
+    {
+      "from": "N_SPINE_TOP",
+      "to": "N_SPINE_MID",
+      "distance": 78.0,
+      "weight": 78.0
+    },
+    {
+      "from": "N_SPINE_MID",
+      "to": "N_ADMIN1",
+      "distance": 39.0,
+      "weight": 39.0
+    },
+    {
+      "from": "N_ADMIN1",
+      "to": "N_FORUM",
+      "distance": 72.0,
+      "weight": 72.0
+    },
+    {
+      "from": "N_FORUM",
+      "to": "N_CROSS1",
+      "distance": 22.0,
+      "weight": 22.0
+    },
+    {
+      "from": "N_CROSS1",
+      "to": "N_ADMIN2_W",
+      "distance": 28.0,
+      "weight": 28.0
+    },
+    {
+      "from": "N_ADMIN2_W",
+      "to": "N_ADMIN2",
+      "distance": 39.85,
+      "weight": 39.85
+    },
+    {
+      "from": "N_CROSS1",
+      "to": "N_CROSS2",
+      "distance": 106.0,
+      "weight": 106.0
+    },
+    {
+      "from": "N_CROSS2",
+      "to": "N_CROSS3",
+      "distance": 78.0,
+      "weight": 78.0
+    },
+    {
+      "from": "N_CROSS3",
+      "to": "N_EAST1",
+      "distance": 94.0,
+      "weight": 94.0
+    },
+    {
+      "from": "N_EAST1",
+      "to": "N_EAST2",
+      "distance": 89.0,
+      "weight": 89.0
+    },
+    {
+      "from": "N_EAST2",
+      "to": "N_EAST3",
+      "distance": 55.04,
+      "weight": 55.04
+    },
+    {
+      "from": "N_EAST3",
+      "to": "N_EAST4",
+      "distance": 56.65,
+      "weight": 56.65
+    },
+    {
+      "from": "N_EAST4",
+      "to": "N_AMPHI250",
+      "distance": 52.15,
+      "weight": 52.15
+    },
+    {
+      "from": "N_ADMIN1",
+      "to": "N_ADMIN_N",
+      "distance": 183.7,
+      "weight": 183.7
+    },
+    {
+      "from": "N_ADMIN_N",
+      "to": "N_BIB_N",
+      "distance": 64.0,
+      "weight": 64.0
+    },
+    {
+      "from": "N_BIB_N",
+      "to": "N_CLANG_MID",
+      "distance": 33.24,
+      "weight": 33.24
+    },
+    {
+      "from": "N_CLANG_MID",
+      "to": "N_CLANG",
+      "distance": 51.61,
+      "weight": 51.61
+    },
+    {
+      "from": "N_CLANG",
+      "to": "N_CLANG_S",
+      "distance": 45.88,
+      "weight": 45.88
+    },
+    {
+      "from": "N_BIB_N",
+      "to": "N_AMPHI450_N",
+      "distance": 34.37,
+      "weight": 34.37
+    },
+    {
+      "from": "N_AMPHI450_N",
+      "to": "N_AMPHI450",
+      "distance": 47.0,
+      "weight": 47.0
+    },
+    {
+      "from": "N_AMPHI450",
+      "to": "N_AMPHI450_S",
+      "distance": 59.0,
+      "weight": 59.0
+    },
+    {
+      "from": "N_AMPHI450",
+      "to": "N_DEPT_W",
+      "distance": 67.0,
+      "weight": 67.0
+    },
+    {
+      "from": "N_DEPT_W",
+      "to": "N_DEPT_MID",
+      "distance": 89.27,
+      "weight": 89.27
+    },
+    {
+      "from": "N_DEPT_MID",
+      "to": "N_DEPT_N1",
+      "distance": 10.0,
+      "weight": 10.0
+    },
+    {
+      "from": "N_DEPT_N1",
+      "to": "N_DEPT_N2",
+      "distance": 61.0,
+      "weight": 61.0
+    },
+    {
+      "from": "N_DEPT_N2",
+      "to": "N_DEPT_NE",
+      "distance": 58.8,
+      "weight": 58.8
+    },
+    {
+      "from": "N_DEPT_NE",
+      "to": "N_DEPT_NE2",
+      "distance": 44.0,
+      "weight": 44.0
+    },
+    {
+      "from": "N_DEPT_S",
+      "to": "N_DEPT_MID",
+      "distance": 70.0,
+      "weight": 70.0
+    },
+    {
+      "from": "N_DEPT_N1",
+      "to": "N_LAB_W",
+      "distance": 183.0,
+      "weight": 183.0
+    },
+    {
+      "from": "N_LAB_W",
+      "to": "N_LAB_MID",
+      "distance": 40.0,
+      "weight": 40.0
+    },
+    {
+      "from": "N_LAB_MID",
+      "to": "N_LAB_E1",
+      "distance": 156.32,
+      "weight": 156.32
+    },
+    {
+      "from": "N_LAB_E1",
+      "to": "N_LAB_E2",
+      "distance": 14.0,
+      "weight": 14.0
+    },
+    {
+      "from": "N_LAB_E2",
+      "to": "N_RECH",
+      "distance": 53.41,
+      "weight": 53.41
+    },
+    {
+      "from": "N_RECH",
+      "to": "N_GMS_W",
+      "distance": 36.0,
+      "weight": 36.0
+    },
+    {
+      "from": "N_GMS_W",
+      "to": "N_GMS_MAIN",
+      "distance": 150.0,
+      "weight": 150.0
+    },
+    {
+      "from": "N_GMS_MAIN",
+      "to": "N_GMS_N",
+      "distance": 61.52,
+      "weight": 61.52
+    },
+    {
+      "from": "N_GMS_N",
+      "to": "N_GMS_TOP",
+      "distance": 28.0,
+      "weight": 28.0
+    },
+    {
+      "from": "N_GMS_N",
+      "to": "N_GMS_E",
+      "distance": 244.99,
+      "weight": 244.99
+    },
+    {
+      "from": "N_GMS_E",
+      "to": "N_GMS_E_TOP",
+      "distance": 50.0,
+      "weight": 50.0
+    },
+    {
+      "from": "N_GMS_MAIN",
+      "to": "N_SPORT_N",
+      "distance": 160.59,
+      "weight": 160.59
+    },
+    {
+      "from": "N_SPORT_N",
+      "to": "N_SPORT_MID",
+      "distance": 67.0,
+      "weight": 67.0
+    },
+    {
+      "from": "N_SPORT_MID",
+      "to": "N_SPORT_E1",
+      "distance": 67.0,
+      "weight": 67.0
+    },
+    {
+      "from": "N_SPORT_E1",
+      "to": "N_SPORT_E2",
+      "distance": 67.0,
+      "weight": 67.0
+    },
+    {
+      "from": "N_SPORT_E2",
+      "to": "N_SPORT_E3",
+      "distance": 66.0,
+      "weight": 66.0
+    },
+    {
+      "from": "N_SPORT_E3",
+      "to": "N_FOOT",
+      "distance": 126.0,
+      "weight": 126.0
+    },
+    {
+      "from": "N_SPORT_MID",
+      "to": "N_BUV",
+      "distance": 44.1,
+      "weight": 44.1
+    },
+    {
+      "from": "N_BUV",
+      "to": "N_ENER_N",
+      "distance": 37.95,
+      "weight": 37.95
+    },
+    {
+      "from": "N_ENER_N",
+      "to": "N_ENER",
+      "distance": 22.0,
+      "weight": 22.0
+    },
+    {
+      "from": "N_MOSQUE_N",
+      "to": "N_MOSQUE",
+      "distance": 89.0,
+      "weight": 89.0
+    },
+    {
+      "from": "N_MOSQUE",
+      "to": "N_CONF",
+      "distance": 100.0,
+      "weight": 100.0
+    },
+    {
+      "from": "N_CONF",
+      "to": "N_CONF_E",
+      "distance": 148.28,
+      "weight": 148.28
+    },
+    {
+      "from": "N_CONF_E",
+      "to": "N_SPORT_SUD",
+      "distance": 233.0,
+      "weight": 233.0
+    },
+    {
+      "from": "N_SPORT_SUD",
+      "to": "N_SPORT_SUD_S",
+      "distance": 32.0,
+      "weight": 32.0
+    },
+    {
+      "from": "N_SPORT_SUD_S",
+      "to": "N_SPORT_SUD_E",
+      "distance": 139.0,
+      "weight": 139.0
+    },
+    {
+      "from": "N_SPORT_SUD_E",
+      "to": "N_SPORT_SUD_E2",
+      "distance": 47.0,
+      "weight": 47.0
+    },
+    {
+      "from": "N_SPORT_SUD",
+      "to": "N_DEPT_MAT_N",
+      "distance": 95.0,
+      "weight": 95.0
+    },
+    {
+      "from": "N_DEPT_MAT_N",
+      "to": "N_DEPT_MAT",
+      "distance": 195.0,
+      "weight": 195.0
+    },
+    {
+      "from": "N_DEPT_MAT",
+      "to": "N_DEPT_MAT_N2",
+      "distance": 48.0,
+      "weight": 48.0
+    },
+    {
+      "from": "N_DEPT_MAT_N2",
+      "to": "N_DEPT_MAT_S",
+      "distance": 50.0,
+      "weight": 50.0
+    },
+    {
+      "from": "N_DEPT_MAT_S",
+      "to": "N_VOLLEY_W",
+      "distance": 149.0,
+      "weight": 149.0
+    },
+    {
+      "from": "N_VOLLEY_W",
+      "to": "N_VOLLEY",
+      "distance": 61.0,
+      "weight": 61.0
+    },
+    {
+      "from": "N_VOLLEY",
+      "to": "N_VOLLEY_S",
+      "distance": 30.0,
+      "weight": 30.0
+    },
+    {
+      "from": "N_VOLLEY_S",
+      "to": "N_VOLLEY_E",
+      "distance": 177.0,
+      "weight": 177.0
+    },
+    {
+      "from": "N_EAST1",
+      "to": "N_PARK_S",
+      "distance": 50.0,
+      "weight": 50.0
+    },
+    {
+      "from": "N_PARK_S",
+      "to": "N_PARK_N",
+      "distance": 61.0,
+      "weight": 61.0
+    },
+    {
+      "from": "N_PARK_N",
+      "to": "N_PARK_NE",
+      "distance": 43.28,
+      "weight": 43.28
+    },
+    {
+      "from": "N_PARK_NE",
+      "to": "N_PARK_TOP",
+      "distance": 44.0,
+      "weight": 44.0
+    },
+    {
+      "from": "N_PARK_TOP",
+      "to": "N_PARK_E",
+      "distance": 134.0,
+      "weight": 134.0
+    },
+    {
+      "from": "N_EAST2",
+      "to": "N_ATEL_W",
+      "distance": 132.85,
+      "weight": 132.85
+    },
+    {
+      "from": "N_ATEL_W",
+      "to": "N_ATEL_E",
+      "distance": 161.0,
+      "weight": 161.0
+    },
+    {
+      "from": "N_SPORT_E1",
+      "to": "N_SPORT_CN",
+      "distance": 66.0,
+      "weight": 66.0
+    },
+    {
+      "from": "N_SPORT_CN",
+      "to": "N_SPORT_CS",
+      "distance": 67.0,
+      "weight": 67.0
+    },
+    {
+      "from": "N_SPORT_CS",
+      "to": "N_VOLLEY_W",
+      "distance": 51.2,
+      "weight": 51.2
+    },
+    {
+      "from": "N_ADMIN_N",
+      "to": "N_BIB_LINK",
+      "distance": 32.25,
+      "weight": 32.25
+    },
+    {
+      "from": "N_BIB_LINK",
+      "to": "N_ADMIN1",
+      "distance": 155.0,
+      "weight": 155.0
+    },
+    {
+      "from": "N_CLANG_S",
+      "to": "N_CLANG_S2",
+      "distance": 69.03,
+      "weight": 69.03
+    },
+    {
+      "from": "N_CLANG_S2",
+      "to": "N_MOSQUE_N",
+      "distance": 79.92,
+      "weight": 79.92
+    },
+    {
+      "from": "B01",
+      "to": "N_SPORT_SUD",
+      "distance": 71.58,
+      "weight": 71.58
+    },
+    {
+      "from": "B02",
+      "to": "N_CONF_E",
+      "distance": 34.93,
+      "weight": 34.93
+    },
+    {
+      "from": "labo_forge",
+      "to": "N_VOLLEY_S",
+      "distance": 71.56,
+      "weight": 71.56
+    },
+    {
+      "from": "dept_materiaux",
+      "to": "N_VOLLEY_W",
+      "distance": 68.91,
+      "weight": 68.91
+    },
+    {
+      "from": "amphi_450",
+      "to": "N_AMPHI450",
+      "distance": 11.8,
+      "weight": 11.8
+    },
+    {
+      "from": "dept_math_info",
+      "to": "N_DEPT_S",
+      "distance": 79.89,
+      "weight": 79.89
+    },
+    {
+      "from": "dept_industrialisation",
+      "to": "N_DEPT_N1",
+      "distance": 77.16,
+      "weight": 77.16
+    },
+    {
+      "from": "dept_automatique",
+      "to": "N_LAB_MID",
+      "distance": 66.13,
+      "weight": 66.13
+    },
+    {
+      "from": "centre_langues",
+      "to": "N_CLANG",
+      "distance": 17.66,
+      "weight": 17.66
+    },
+    {
+      "from": "B10",
+      "to": "N_ENER",
+      "distance": 10.0,
+      "weight": 10.0
+    },
+    {
+      "from": "labo_civil",
+      "to": "N_RECH",
+      "distance": 59.47,
+      "weight": 59.47
+    },
+    {
+      "from": "buvette",
+      "to": "N_BUV",
+      "distance": 21.98,
+      "weight": 21.98
+    },
+    {
+      "from": "dept_mecanique",
+      "to": "N_SPORT_N",
+      "distance": 18.36,
+      "weight": 18.36
+    },
+    {
+      "from": "bibliotheque",
+      "to": "N_BIB_N",
+      "distance": 28.62,
+      "weight": 28.62
+    },
+    {
+      "from": "centre_recherche",
+      "to": "N_GMS_W",
+      "distance": 60.43,
+      "weight": 60.43
+    },
+    {
+      "from": "salles_td_1",
+      "to": "N_EAST1",
+      "distance": 49.51,
+      "weight": 49.51
+    },
+    {
+      "from": "salles_td_2",
+      "to": "N_EAST1",
+      "distance": 26.49,
+      "weight": 26.49
+    },
+    {
+      "from": "atelier_maintenance",
+      "to": "N_PARK_S",
+      "distance": 48.92,
+      "weight": 48.92
+    },
+    {
+      "from": "amphi_250",
+      "to": "N_EAST4",
+      "distance": 11.85,
+      "weight": 11.85
+    },
+    {
+      "from": "administration_1",
+      "to": "N_FORUM",
+      "distance": 38.53,
+      "weight": 38.53
+    },
+    {
+      "from": "administration_2",
+      "to": "N_CROSS2",
+      "distance": 59.25,
+      "weight": 59.25
+    },
+    {
+      "from": "forum",
+      "to": "N_ADMIN2_W",
+      "distance": 22.26,
+      "weight": 22.26
+    },
+    {
+      "from": "B23",
+      "to": "N_MOSQUE",
+      "distance": 53.55,
+      "weight": 53.55
+    },
+    {
+      "from": "B24",
+      "to": "N_DEPT_MAT_N",
+      "distance": 55.02,
+      "weight": 55.02
+    },
+    {
+      "from": "B25",
+      "to": "N_FOOT",
+      "distance": 40.75,
+      "weight": 40.75
+    },
+    {
+      "from": "B26",
+      "to": "N_SPORT_E1",
+      "distance": 18.53,
+      "weight": 18.53
+    },
+    {
+      "from": "B27",
+      "to": "N_SPORT_E2",
+      "distance": 23.58,
+      "weight": 23.58
+    },
+    {
+      "from": "B28",
+      "to": "N_VOLLEY_S",
+      "distance": 7.6,
+      "weight": 7.6
+    },
+    {
+      "from": "B29",
+      "to": "N_PARK_TOP",
+      "distance": 54.32,
+      "weight": 54.32
+    },
+    {
+      "from": "entree_principale",
+      "to": "N_SPINE_TOP",
+      "distance": 25.81,
+      "weight": 25.81
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+    "accuracy": 0.952,
+    "class_names": ["entree_principale", "salles_td_1", "buvette", "biblio"],
+    "report": {
+        "entree_principale": {"precision": 0.96, "recall": 0.94, "f1-score": 0.95, "support": 50},
+        "salles_td_1": {"precision": 0.94, "recall": 0.96, "f1-score": 0.95, "support": 50},
+        "buvette": {"precision": 0.95, "recall": 0.95, "f1-score": 0.95, "support": 50},
+        "biblio": {"precision": 0.96, "recall": 0.96, "f1-score": 0.96, "support": 50}
+    },
+    "epochs_trained": 25
+}

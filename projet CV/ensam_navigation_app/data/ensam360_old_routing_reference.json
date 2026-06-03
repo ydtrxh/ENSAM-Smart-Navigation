@@ -1,0 +1,982 @@
+{
+  "source": "C:\\Users\\Hp\\OneDrive\\Desktop\\Nouveau dossier\\PythonProjects\\ENSAM360-main\\ENSAM360-main\\backend\\scripts\\seed.js",
+  "notes": [
+    "Reference model only. Coordinates are from the old React/Leaflet map and must be remapped before use.",
+    "Use node roles and connection patterns as architecture guidance, not as a direct replacement."
+  ],
+  "nodes": [
+    {
+      "id": "amphi_parking",
+      "labels": [
+        "Location",
+        "Waypoint"
+      ],
+      "name": "Amphi Parking",
+      "description": "Intersection entre l'amphi et parking",
+      "coords": [
+        380.0,
+        317.0
+      ],
+      "pano_url": "src/assets/image/amphi_parking.jpg",
+      "flat_url": "src/assets/image/amphi_parking_flat.jpg",
+      "floor": 0
+    },
+    {
+      "id": "amphis_door",
+      "labels": [
+        "Location",
+        "Waypoint"
+      ],
+      "name": "Porte Amphi",
+      "description": "La porte d'entree de l'amphi",
+      "coords": [
+        350.0,
+        317.0
+      ],
+      "pano_url": "src/assets/image/amphis_door.jpg",
+      "flat_url": "src/assets/image/amphis_door_flat.jpg",
+      "floor": 0
+    },
+    {
+      "id": "AUF",
+      "labels": [
+        "Location",
+        "Building"
+      ],
+      "name": "Batiment AUF",
+      "description": "Le batiment AUF des lagnues",
+      "coords": [
+        270.0,
+        401.0
+      ],
+      "pano_url": "src/assets/image/AUF.jpg",
+      "flat_url": "src/assets/image/AUF_flat.jpg",
+      "floor": 0
+    },
+    {
+      "id": "buvette",
+      "labels": [
+        "Location",
+        "Restaurant"
+      ],
+      "name": "Buvette",
+      "description": "La buvette des etudiants",
+      "coords": [
+        639.0,
+        317.0
+      ],
+      "pano_url": "src/assets/image/buvette.jpg",
+      "flat_url": "src/assets/image/buvette_flat.jpg",
+      "floor": 0
+    },
+    {
+      "id": "centre_de_recherche",
+      "labels": [
+        "Location",
+        "Building",
+        "Dept"
+      ],
+      "name": "Centre de Recherche",
+      "description": "Centre de recherche avec salles de dessin",
+      "coords": [
+        440.0,
+        400.0
+      ],
+      "pano_url": "src/assets/image/centre_de_recherche.jpg",
+      "flat_url": "src/assets/image/centre_de_recherche_flat.jpg",
+      "floor": 0
+    },
+    {
+      "id": "centre_de_recherche_door",
+      "labels": [
+        "Location",
+        "Waypoint"
+      ],
+      "name": "La porte de Centre de Recherche",
+      "description": "La porte du Centre de recherche",
+      "coords": [
+        441.0,
+        350.0
+      ],
+      "pano_url": "src/assets/image/centre_de_recherche_door.jpg",
+      "flat_url": "src/assets/image/centre_de_recherche_door_flat.jpg",
+      "floor": 0
+    },
+    {
+      "id": "centre_de_recherche_entry",
+      "labels": [
+        "Location",
+        "Waypoint"
+      ],
+      "name": "Entree de Centre de Recherche",
+      "description": "L'entree de Centre de recherche",
+      "coords": [
+        441.0,
+        316.0
+      ],
+      "pano_url": "src/assets/image/centre_de_recherche_entry.jpg",
+      "flat_url": "src/assets/image/centre_de_recherche_entry_flat.jpg",
+      "floor": 0
+    },
+    {
+      "id": "civil",
+      "labels": [
+        "Location",
+        "Building",
+        "Dept"
+      ],
+      "name": "Departement civil",
+      "description": "Le department genie civil",
+      "coords": [
+        542.0,
+        400.0
+      ],
+      "pano_url": "src/assets/image/civil.jpg",
+      "flat_url": "src/assets/image/civil_flat.jpg",
+      "floor": 0
+    },
+    {
+      "id": "civil_entry",
+      "labels": [
+        "Location",
+        "Waypoint"
+      ],
+      "name": "Entree civil",
+      "description": "Entree du Departement Genie Civil",
+      "coords": [
+        542.0,
+        350.0
+      ],
+      "pano_url": "src/assets/image/civil_entry.jpg",
+      "flat_url": "src/assets/image/civil_entry_flat.jpg",
+      "floor": 0
+    },
+    {
+      "id": "civil_gms_entry",
+      "labels": [
+        "Location",
+        "Waypoint"
+      ],
+      "name": "Intersection GMS Civil",
+      "description": "Intersection entre le Atelier Tp GMS et le Dept Civil",
+      "coords": [
+        542.0,
+        316.0
+      ],
+      "pano_url": "src/assets/image/civil_gms_entry.jpg",
+      "flat_url": "src/assets/image/civil_gms_entry_flat.jpg",
+      "floor": 0
+    },
+    {
+      "id": "couloir_intersection",
+      "labels": [
+        "Location",
+        "Waypoint"
+      ],
+      "name": "Couloir Intersection",
+      "description": "Couloir de l'intersection entre chemin vers Buvette et chemin vers Bibliothèque",
+      "coords": [
+        379.0,
+        399.0
+      ],
+      "pano_url": "src/assets/image/couloir_intersection.jpg",
+      "flat_url": "src/assets/image/couloir_intersection_flat.jpg",
+      "floor": 0
+    },
+    {
+      "id": "couloir_right_td1",
+      "labels": [
+        "Location",
+        "Waypoint"
+      ],
+      "name": "Couloir droit de TD1",
+      "description": "Couloir droit du Td1",
+      "coords": [
+        320.0,
+        482.0
+      ],
+      "pano_url": "src/assets/image/couloir_right_td1.jpg",
+      "flat_url": "src/assets/image/couloir_right_td1_flat.jpg",
+      "floor": 1
+    },
+    {
+      "id": "energitique_door",
+      "labels": [
+        "Location",
+        "Waypoint"
+      ],
+      "name": "Porte Energitique",
+      "description": "La prote du Departement Energitique",
+      "coords": [
+        670.0,
+        405.0
+      ],
+      "pano_url": "src/assets/image/energitique_door.jpg",
+      "flat_url": "src/assets/image/energitique_door_flat.jpg",
+      "floor": 0
+    },
+    {
+      "id": "energitique_entry",
+      "labels": [
+        "Location",
+        "Waypoint"
+      ],
+      "name": "Entree Energitique",
+      "description": "Entree du Departement Energitique",
+      "coords": [
+        670.0,
+        317.0
+      ],
+      "pano_url": "src/assets/image/energitique_entry.jpg",
+      "flat_url": "src/assets/image/energitique_entry_flat.jpg",
+      "floor": 0
+    },
+    {
+      "id": "ensam_entry",
+      "labels": [
+        "Location"
+      ],
+      "name": "Entree Ensam",
+      "description": "Entree de L'Ecole Nationale Superieure d'Arts et Metiers de Meknes",
+      "coords": [
+        82.0,
+        330.0
+      ],
+      "pano_url": "src/assets/image/ensam_entry.jpg",
+      "flat_url": "src/assets/image/ensam_entry_flat.jpg",
+      "floor": 0
+    },
+    {
+      "id": "fabrication_mecanique_entry",
+      "labels": [
+        "Location",
+        "Waypoint"
+      ],
+      "name": "Entree Tp Fabrication mecanique",
+      "description": "Entree du TP en fabrication mecanique",
+      "coords": [
+        493.0,
+        316.0
+      ],
+      "pano_url": "src/assets/image/fabrication_mecanique_entry.jpg",
+      "flat_url": "src/assets/image/fabrication_mecanique_entry_flat.jpg",
+      "floor": 0
+    },
+    {
+      "id": "parking",
+      "labels": [
+        "Location",
+        "Parking"
+      ],
+      "name": "Parking",
+      "description": "Parking de l'ENSAM",
+      "coords": [
+        378.0,
+        240.0
+      ],
+      "pano_url": "src/assets/image/parking.jpg",
+      "flat_url": "src/assets/image/parking_flat.jpg",
+      "floor": 0
+    },
+    {
+      "id": "pointeuse_entry",
+      "labels": [
+        "Location",
+        "Waypoint"
+      ],
+      "name": "Espace de pointeuses",
+      "description": "Espace de pointeuses a cote du TD2",
+      "coords": [
+        187.0,
+        401.0
+      ],
+      "pano_url": "src/assets/image/pointeuse_entry.jpg",
+      "flat_url": "src/assets/image/pointeuse_entry_flat.jpg",
+      "floor": 0
+    },
+    {
+      "id": "salle_info_7",
+      "labels": [
+        "Location",
+        "Classe"
+      ],
+      "name": "Salle 7 Info",
+      "description": "Salle 7 de la filiere Genie Informatique,Ingenierie Logicielle et Systemes Intelligents",
+      "coords": [
+        324.0,
+        435.0
+      ],
+      "pano_url": "src/assets/image/salle_info_7.jpg",
+      "flat_url": "src/assets/image/salle_info_7_flat.jpg",
+      "floor": 1
+    },
+    {
+      "id": "stairs_right_td1",
+      "labels": [
+        "Location",
+        "Waypoint"
+      ],
+      "name": "Escaliers Droit de TD1",
+      "description": "Escaliers droit du TD1",
+      "coords": [
+        348.0,
+        482.0
+      ],
+      "pano_url": "src/assets/image/stairs_right_td1.jpg",
+      "flat_url": "src/assets/image/stairs_right_td1_flat.jpg",
+      "floor": 0
+    },
+    {
+      "id": "td1",
+      "labels": [
+        "Location",
+        "Building",
+        "Td"
+      ],
+      "name": "TD1",
+      "description": "le Td TD1",
+      "coords": [
+        320.0,
+        452.0
+      ],
+      "pano_url": "src/assets/image/td1.jpg",
+      "flat_url": "src/assets/image/td1_flat.jpg",
+      "floor": 0
+    },
+    {
+      "id": "td1_door",
+      "labels": [
+        "Location",
+        "Waypoint"
+      ],
+      "name": "Porte de TD1",
+      "description": "La porte du TD1",
+      "coords": [
+        348.0,
+        452.0
+      ],
+      "pano_url": "src/assets/image/td1_door.jpg",
+      "flat_url": "src/assets/image/td1_door_flat.jpg",
+      "floor": 0
+    },
+    {
+      "id": "td1_entry",
+      "labels": [
+        "Location",
+        "Waypoint"
+      ],
+      "name": "Entrée de TD1",
+      "description": "Entrée du Td TD1",
+      "coords": [
+        379.0,
+        452.0
+      ],
+      "pano_url": "src/assets/image/td1_entry.jpg",
+      "flat_url": "src/assets/image/td1_entry_flat.jpg",
+      "floor": 0
+    },
+    {
+      "id": "td2",
+      "labels": [
+        "Location",
+        "Building",
+        "Td"
+      ],
+      "name": "TD2",
+      "description": "Le td TD2",
+      "coords": [
+        215.0,
+        470.0
+      ],
+      "pano_url": "src/assets/image/td2.jpg",
+      "flat_url": "src/assets/image/td2_flat.jpg",
+      "floor": 0
+    },
+    {
+      "id": "td2_entry",
+      "labels": [
+        "Location",
+        "Waypoint"
+      ],
+      "name": "Entree TD2",
+      "description": "Entree du TD2",
+      "coords": [
+        211.0,
+        401.0
+      ],
+      "pano_url": "src/assets/image/td2_entry.jpg",
+      "flat_url": "src/assets/image/td2_entry_flat.jpg",
+      "floor": 0
+    },
+    {
+      "id": "terrain_fonderie",
+      "labels": [
+        "Location",
+        "Waypoint"
+      ],
+      "name": "Intersection Terrain Fonderie",
+      "description": "Intersection entre le chemin menant au Terrain de Foot et La buvette des Profs avec le chemin menant au TP (labaux) de Fonderie",
+      "coords": [
+        720.0,
+        317.0
+      ],
+      "pano_url": "src/assets/image/terrain_fonderie.jpg",
+      "flat_url": "src/assets/image/terrain_fonderie_flat.jpg",
+      "floor": 0
+    },
+    {
+      "id": "administration",
+      "labels": [
+        "Location",
+        "Building",
+        "Admin"
+      ],
+      "name": "Administration",
+      "description": "Bâtiment de l'administration.",
+      "coords": [
+        80.0,
+        540.0
+      ],
+      "pano_url": "src/assets/image/administration.jpg",
+      "flat_url": "src/assets/image/administration_flat.jpg",
+      "floor": 0
+    },
+    {
+      "id": "Admnetud",
+      "labels": [
+        "Location",
+        "Waypoint"
+      ],
+      "name": "Route vers l'Administration des Étudiants et la Bibliothèque",
+      "description": "Jonction vers l'administration des étudiants et la bibliothèque.",
+      "coords": [
+        95.0,
+        610.0
+      ],
+      "pano_url": "src/assets/image/routebib.jpg",
+      "flat_url": "src/assets/image/routebib_flat.jpg",
+      "floor": 0
+    },
+    {
+      "id": "Administration_etud",
+      "labels": [
+        "Location",
+        "Building",
+        "Administration"
+      ],
+      "name": "Administration des Étudiants",
+      "description": "Bureau de l'administration des étudiants.",
+      "coords": [
+        180.0,
+        623.0
+      ],
+      "pano_url": "src/assets/image/adminetud.jpg",
+      "flat_url": "src/assets/image/adminetud_flat.jpg",
+      "floor": 0
+    },
+    {
+      "id": "couloirForum",
+      "labels": [
+        "Location",
+        "Waypoint"
+      ],
+      "name": "Couloir Administration des etudiants",
+      "description": "Couloir menant au forum.",
+      "coords": [
+        180.0,
+        647.0
+      ],
+      "pano_url": "src/assets/image/couloirforum.jpg",
+      "flat_url": "src/assets/image/couloirforum_flat.jpg",
+      "floor": 0
+    },
+    {
+      "id": "couloir1",
+      "labels": [
+        "Location",
+        "Waypoint"
+      ],
+      "name": "Couloir Bibliothèque",
+      "description": "Premier couloir principal.",
+      "coords": [
+        215.0,
+        647.0
+      ],
+      "pano_url": "src/assets/image/image5.jpg",
+      "flat_url": "src/assets/image/image5_flat.jpg",
+      "floor": 0
+    },
+    {
+      "id": "Bibliotheque_et_centre_de_langue",
+      "labels": [
+        "Location",
+        "Building",
+        "BIB"
+      ],
+      "name": "Bibliothèque et Centre de Langue",
+      "description": "Bibliothèque principale et centre de langue.",
+      "coords": [
+        220.0,
+        730.0
+      ],
+      "pano_url": "src/assets/image/bib.jpg",
+      "flat_url": "src/assets/image/bib_flat.jpg",
+      "floor": 0
+    },
+    {
+      "id": "escalier1",
+      "labels": [
+        "Location",
+        "Waypoint"
+      ],
+      "name": "Escalier Bibliothèque",
+      "description": "Premier escalier d'accès a la bibliotheque.",
+      "coords": [
+        200.0,
+        700.0
+      ],
+      "pano_url": "src/assets/image/escalier1.jpg",
+      "flat_url": "src/assets/image/escalier1_flat.jpg",
+      "floor": 0
+    },
+    {
+      "id": "escalier2",
+      "labels": [
+        "Location",
+        "Waypoint"
+      ],
+      "name": "Entrée Bibliothèque",
+      "description": "Deuxième escalier d'accès.",
+      "coords": [
+        200.0,
+        715.0
+      ],
+      "pano_url": "src/assets/image/image2.jpg",
+      "flat_url": "src/assets/image/image2_flat.jpg",
+      "floor": 1
+    },
+    {
+      "id": "couloir2",
+      "labels": [
+        "Location",
+        "Waypoint"
+      ],
+      "name": "Deuxième couloir principal",
+      "description": "Deuxième couloir principal.",
+      "coords": [
+        377.0,
+        647.0
+      ],
+      "pano_url": "src/assets/image/image6.jpg",
+      "flat_url": "src/assets/image/image6_flat.jpg",
+      "floor": 1
+    },
+    {
+      "id": "couloircctd1",
+      "labels": [
+        "Location",
+        "Waypoint"
+      ],
+      "name": "Couloir Centre de Calcul",
+      "description": "Couloir du centre de calcul.",
+      "coords": [
+        377.0,
+        610.0
+      ],
+      "pano_url": "src/assets/image/couloircctd1.jpg",
+      "flat_url": "src/assets/image/couloircctd1_flat.jpg",
+      "floor": 1
+    },
+    {
+      "id": "CouloirAEEE",
+      "labels": [
+        "Location",
+        "Waypoint"
+      ],
+      "name": "Couloir de l'Entrée de AEEE",
+      "description": "Couloir d'entrée du département AEEE.",
+      "coords": [
+        379.0,
+        476.0
+      ],
+      "pano_url": "src/assets/image/couloira3e.jpg",
+      "flat_url": "src/assets/image/couloira3e_flat.jpg",
+      "floor": 1
+    },
+    {
+      "id": "EntreeA3e",
+      "labels": [
+        "Location",
+        "Waypoint"
+      ],
+      "name": "Entrée de AEEE",
+      "description": "Entrée du département AEEE.",
+      "coords": [
+        415.0,
+        476.0
+      ],
+      "pano_url": "src/assets/image/EntreeA3E.jpg",
+      "flat_url": "src/assets/image/EntreeA3E_flat.jpg",
+      "floor": 1
+    },
+    {
+      "id": "AEEE",
+      "labels": [
+        "Location",
+        "Building",
+        "Dept"
+      ],
+      "name": "Département AEEE",
+      "description": "Département d'Automatique, Électronique, Énergie et Environnement.",
+      "coords": [
+        415.0,
+        487.0
+      ],
+      "pano_url": "src/assets/image/a3e.jpg",
+      "flat_url": "src/assets/image/a3e_flat.jpg",
+      "floor": 1
+    },
+    {
+      "id": "a3einside",
+      "labels": [
+        "Location",
+        "Waypoint"
+      ],
+      "name": "Département AEEE (Intérieur)",
+      "description": "Intérieur du département AEEE.",
+      "coords": [
+        460.0,
+        520.0
+      ],
+      "pano_url": "src/assets/image/a3e2.jpg",
+      "flat_url": "src/assets/image/a3e2_flat.jpg",
+      "floor": 1
+    },
+    {
+      "id": "mathinfo",
+      "labels": [
+        "Location",
+        "Waypoint"
+      ],
+      "name": "Entrée Département Mathématiques-Informatique",
+      "description": "Département de Mathématiques et Informatique.",
+      "coords": [
+        420.0,
+        610.0
+      ],
+      "pano_url": "src/assets/image/cc_outside.jpg",
+      "flat_url": "src/assets/image/cc_outside_flat.jpg",
+      "floor": 1
+    },
+    {
+      "id": "mathinfo_inside",
+      "labels": [
+        "Location",
+        "Building",
+        "Dept"
+      ],
+      "name": "Département Mathématiques-Informatique (Intérieur)",
+      "description": "Intérieur du département Mathématiques-Informatique.",
+      "coords": [
+        475.0,
+        653.0
+      ],
+      "pano_url": "src/assets/image/mathinfo.jpg",
+      "flat_url": "src/assets/image/mathinfo_flat.jpg",
+      "floor": 1
+    },
+    {
+      "id": "amphie_et_salle_de_conference",
+      "labels": [
+        "Location",
+        "Building"
+      ],
+      "name": "Amphithéâtre 3 et Salle de Conférence",
+      "description": "Jonction entre l'amphithéâtre 3 et la salle de conférence.",
+      "coords": [
+        377.0,
+        755.0
+      ],
+      "pano_url": "src/assets/image/image7.jpg",
+      "flat_url": "src/assets/image/image7_flat.jpg",
+      "floor": 1
+    },
+    {
+      "id": "entree_salle_conference",
+      "labels": [
+        "Location",
+        "Waypoint"
+      ],
+      "name": "Entrée de la Salle de Conférence",
+      "description": "Entrée de la salle de conférence.",
+      "coords": [
+        355.0,
+        755.0
+      ],
+      "pano_url": "src/assets/image/image8.jpg",
+      "flat_url": "src/assets/image/image8_flat.jpg",
+      "floor": 1
+    },
+    {
+      "id": "salle_conference",
+      "labels": [
+        "Location",
+        "Amphi"
+      ],
+      "name": "Salle de Conférence",
+      "description": "Salle de conférence principale.",
+      "coords": [
+        355.0,
+        800.0
+      ],
+      "pano_url": "src/assets/image/image9.jpg",
+      "flat_url": "src/assets/image/image9_flat.jpg",
+      "floor": 1
+    },
+    {
+      "id": "entree_emphi3",
+      "labels": [
+        "Location",
+        "Waypoint"
+      ],
+      "name": "Entrée de l'Amphithéâtre 3",
+      "description": "Entrée de l'amphithéâtre 3.",
+      "coords": [
+        410.0,
+        755.0
+      ],
+      "pano_url": "src/assets/image/amphi3.jpg",
+      "flat_url": "src/assets/image/amphi3_flat.jpg",
+      "floor": 1
+    },
+    {
+      "id": "Amphi3",
+      "labels": [
+        "Location",
+        "Building",
+        "Amphi"
+      ],
+      "name": "Amphithéâtre 3",
+      "description": "Amphithéâtre 3 pour les conférences et cours.",
+      "coords": [
+        300.0,
+        300.0
+      ],
+      "pano_url": "src/assets/image/image11.jpg",
+      "flat_url": "src/assets/image/image11_flat.jpg",
+      "floor": 1
+    }
+  ],
+  "edges": [
+    {
+      "from": "ensam_entry",
+      "to": "administration"
+    },
+    {
+      "from": "administration",
+      "to": "Admnetud"
+    },
+    {
+      "from": "Admnetud",
+      "to": "Administration_etud"
+    },
+    {
+      "from": "Administration_etud",
+      "to": "couloirForum"
+    },
+    {
+      "from": "couloirForum",
+      "to": "couloir1"
+    },
+    {
+      "from": "couloir1",
+      "to": "Bibliotheque_et_centre_de_langue"
+    },
+    {
+      "from": "Bibliotheque_et_centre_de_langue",
+      "to": "escalier1"
+    },
+    {
+      "from": "escalier1",
+      "to": "escalier2"
+    },
+    {
+      "from": "couloir1",
+      "to": "couloir2"
+    },
+    {
+      "from": "couloir2",
+      "to": "couloircctd1"
+    },
+    {
+      "from": "couloircctd1",
+      "to": "mathinfo"
+    },
+    {
+      "from": "mathinfo",
+      "to": "mathinfo_inside"
+    },
+    {
+      "from": "couloircctd1",
+      "to": "CouloirAEEE"
+    },
+    {
+      "from": "CouloirAEEE",
+      "to": "EntreeA3e"
+    },
+    {
+      "from": "EntreeA3e",
+      "to": "AEEE"
+    },
+    {
+      "from": "AEEE",
+      "to": "a3einside"
+    },
+    {
+      "from": "CouloirAEEE",
+      "to": "td1_entry"
+    },
+    {
+      "from": "couloirtd1",
+      "to": "CouloirTD1TD2"
+    },
+    {
+      "from": "couloir2",
+      "to": "amphie_et_salle_de_conference"
+    },
+    {
+      "from": "amphie_et_salle_de_conference",
+      "to": "entree_salle_conference"
+    },
+    {
+      "from": "entree_salle_conference",
+      "to": "salle_conference"
+    },
+    {
+      "from": "amphie_et_salle_de_conference",
+      "to": "entree_emphi3"
+    },
+    {
+      "from": "entree_emphi3",
+      "to": "Amphi3"
+    },
+    {
+      "from": "ensam_entry",
+      "to": "pointeuse_entry"
+    },
+    {
+      "from": "pointeuse_entry",
+      "to": "td2_entry"
+    },
+    {
+      "from": "td2_entry",
+      "to": "td2"
+    },
+    {
+      "from": "td2_entry",
+      "to": "AUF"
+    },
+    {
+      "from": "AUF",
+      "to": "couloir_intersection"
+    },
+    {
+      "from": "couloir_intersection",
+      "to": "amphi_parking"
+    },
+    {
+      "from": "couloir_intersection",
+      "to": "td1_entry"
+    },
+    {
+      "from": "td1_entry",
+      "to": "td1_door"
+    },
+    {
+      "from": "td1_door",
+      "to": "td1"
+    },
+    {
+      "from": "td1_door",
+      "to": "stairs_right_td1"
+    },
+    {
+      "from": "td1",
+      "to": "stairs_right_td1"
+    },
+    {
+      "from": "stairs_right_td1",
+      "to": "couloir_right_td1"
+    },
+    {
+      "from": "couloir_right_td1",
+      "to": "salle_info_7"
+    },
+    {
+      "from": "amphi_parking",
+      "to": "amphis_door"
+    },
+    {
+      "from": "amphi_parking",
+      "to": "parking"
+    },
+    {
+      "from": "amphi_parking",
+      "to": "centre_de_recherche_entry"
+    },
+    {
+      "from": "centre_de_recherche_entry",
+      "to": "centre_de_recherche_door"
+    },
+    {
+      "from": "centre_de_recherche_entry",
+      "to": "fabrication_mecanique_entry"
+    },
+    {
+      "from": "centre_de_recherche_door",
+      "to": "centre_de_recherche"
+    },
+    {
+      "from": "fabrication_mecanique_entry",
+      "to": "civil_gms_entry"
+    },
+    {
+      "from": "civil_gms_entry",
+      "to": "civil_entry"
+    },
+    {
+      "from": "civil_gms_entry",
+      "to": "buvette"
+    },
+    {
+      "from": "civil_entry",
+      "to": "civil"
+    },
+    {
+      "from": "buvette",
+      "to": "energitique_entry"
+    },
+    {
+      "from": "energitique_entry",
+      "to": "energitique_door"
+    },
+    {
+      "from": "energitique_entry",
+      "to": "terrain_fonderie"
+    },
+    {
+      "from": "mathinfo_inside",
+      "to": "labo_indus"
+    }
+  ],
+  "missing_node_edges": [
+    {
+      "from": "couloirtd1",
+      "to": "CouloirTD1TD2"
+    },
+    {
+      "from": "mathinfo_inside",
+      "to": "labo_indus"
+    }
+  ]
+}

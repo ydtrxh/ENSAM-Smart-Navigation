@@ -1,0 +1,22 @@
+# NLP Engine - Configuration
+
+# Select which LLM backend to use: "ollama" or "llamacpp".
+backend: "ollama"
+
+# Ollama development backend.
+# Requires: ollama pull llama3.2 && ollama serve
+ollama_model: "llama3.2:latest"
+
+# llama-cpp-python production backend.
+# Download a Llama 3.2 3B Instruct GGUF and place it at this path.
+llamacpp_model_path: "models/llama-3.2-3b-instruct.Q4_K_M.gguf"
+llamacpp_n_threads: 4
+
+# Campus data, relative to nlp_engine/.
+geojson_path: "data/campus.geojson"
+
+# Minimum RapidFuzz token_set_ratio score (0-100) to accept a match.
+resolution_threshold: 65
+
+# Always 0.0 for deterministic JSON extraction.
+temperature: 0.0

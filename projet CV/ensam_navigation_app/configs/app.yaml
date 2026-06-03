@@ -1,0 +1,41 @@
+# ENSAM Smart Navigation System - runtime path configuration
+#
+# Each path can be a string or an ordered fallback list.
+# The first existing path is used. If none exists, the first entry is treated as
+# the preferred future location for generated files.
+
+paths:
+  buildings_json:
+    - graph/data/buildings.json
+    - data/buildings.json
+
+  campus_graph_json:
+    - graph/data/campus_graph.json
+    - data/campus_graph.json
+
+  campus_geojson:
+    - graph/data/campus.geojson
+    - data/campus.geojson
+    - nlp_engine/data/campus.geojson
+
+  nlp_config:
+    - configs/nlp.yaml
+    - nlp_engine/config.yaml
+
+  best_model_pth:
+    - models/checkpoints/best_model.pth
+    - checkpoints/best_model.pth
+    - cv_engine/checkpoints/best_model.pth
+
+  gallery_pkl:
+    - models/checkpoints/gallery.pkl
+    - checkpoints/gallery.pkl
+    - cv_engine/outputs/gallery.pkl
+
+  model_metrics:
+    - outputs/evaluation/model_metrics.json
+    - outputs/eval_report.json
+    - model_metrics.json
+
+  campus_svg:
+    - app/static/campus_map_2d1.svg
