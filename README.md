@@ -721,7 +721,6 @@ The route quality depends more on graph topology than on the UI polyline. To rep
 ---
 
 
-<<<<<<< HEAD:projet CV/ensam_navigation_app/README.md
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
+
 =======
 >>>>>>> 8cfbe854f250db310d6254402a9a68d91036b4a9:README.md
