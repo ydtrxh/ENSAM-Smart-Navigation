@@ -308,29 +308,19 @@ pip install -r cv_engine/requirements.txt
 pip install albumentations==1.3.1
 ```
 
-### 4. Start Neo4j
+### 4. Configure Neo4j AuraDB
 
-Using Docker:
-
-```bash
-docker compose up -d
-```
-
-Default local credentials in `docker-compose.yml`:
-
-```text
-NEO4J_URI=bolt://localhost:7687
-NEO4J_USER=neo4j
-NEO4J_PASSWORD=ensam360password
-```
-
-You may also create a `.env` file:
+This project uses **Neo4j AuraDB** as the graph database. Create an AuraDB instance, then copy your connection URI, username, and password into a local `.env` file:
 
 ```env
-NEO4J_URI=bolt://localhost:7687
+NEO4J_URI=neo4j+s://your-aura-instance.databases.neo4j.io
 NEO4J_USER=neo4j
-NEO4J_PASSWORD=ensam360password
+NEO4J_PASSWORD=your-aura-generated-password
 ```
+
+The `.env` file is intentionally ignored by Git because it contains credentials.
+
+For local-only experimentation, `docker-compose.yml` can still be used to start a local Neo4j instance, but AuraDB is the recommended setup for this project.
 
 ### 5. Synchronize the campus graph
 
@@ -436,7 +426,41 @@ python -m nlp_engine.test_pipeline
 
 ## Results and Metrics
 
-The current training statistics show strong retrieval performance on the validation setup, with Recall@1 reaching up to `1.0000` during the recorded triplet-loss run in `outputs/training_stats.json`.
+The available validation statistics come from the recorded triplet-loss training run in `outputs/training_stats.json`.
+
+### Vision Model Validation Summary
+
+| Item | Value |
+| --- | --- |
+| Loss function | Batch-hard triplet loss |
+| Random seed | `42` |
+| Recorded epochs | `10` |
+| Best validation Recall@1 | `100.00%` at epoch 7 |
+| Best validation Recall@3 | `100.00%` |
+| Best validation Recall@5 | `100.00%` |
+| Final epoch Recall@1 | `99.41%` |
+| Final epoch Recall@3 | `100.00%` |
+| Final epoch Recall@5 | `100.00%` |
+| Final train loss | `0.3151` |
+| Final mean intra-class distance | `0.0102` |
+| Final mean inter-class distance | `0.0310` |
+
+### Validation Recall by Epoch
+
+| Epoch | Train Loss | Recall@1 | Recall@3 | Recall@5 | Intra-Class Distance | Inter-Class Distance |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| 1 | 0.4951 | 98.24% | 100.00% | 100.00% | 0.1180 | 0.3178 |
+| 2 | 0.4039 | 98.24% | 100.00% | 100.00% | 0.0594 | 0.1647 |
+| 3 | 0.3609 | 98.82% | 99.41% | 99.41% | 0.0341 | 0.1000 |
+| 4 | 0.3415 | 98.82% | 100.00% | 100.00% | 0.0251 | 0.0731 |
+| 5 | 0.3321 | 98.82% | 100.00% | 100.00% | 0.0200 | 0.0588 |
+| 6 | 0.3260 | 98.82% | 100.00% | 100.00% | 0.0172 | 0.0507 |
+| 7 | 0.3222 | 100.00% | 100.00% | 100.00% | 0.0145 | 0.0425 |
+| 8 | 0.3191 | 99.41% | 100.00% | 100.00% | 0.0128 | 0.0380 |
+| 9 | 0.3170 | 99.41% | 100.00% | 100.00% | 0.0113 | 0.0342 |
+| 10 | 0.3151 | 99.41% | 100.00% | 100.00% | 0.0102 | 0.0310 |
+
+These metrics evaluate embedding retrieval quality: for each validation image, the model checks whether an image from the same class appears in the top-K nearest embeddings.
 
 Important note: model performance should be reported from the latest `outputs/eval_report.json` generated against the current 17-class dataset. If an older `model_metrics.json` contains only a subset of classes, it should not be used as a final academic result.
 
