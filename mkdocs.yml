@@ -1,10 +1,10 @@
 site_name: ENSAM Smart Navigation System
 site_description: AI-powered campus navigation with computer vision, NLP, Neo4j graph routing, and Streamlit.
-site_author: ENSAM Smart Navigation System Contributors
-site_url: https://your-username.github.io/ensam-smart-navigation-system/
+site_author: Auteurs : Younes Chajara & Achraf Oudich Institution : École Nationale Supérieure d’Arts et Métiers (ENSAM), Meknès Spécialisation : Intelligence Artificielle et Technologies de Données pour les Systèmes Industriels (IATD-SI)
+site_url: https://ydtrxh.github.io/ENSAM-Smart-Navigation/
 
-repo_name: your-username/ensam-smart-navigation-system
-repo_url: https://github.com/your-username/ensam-smart-navigation-system
+repo_name: ydtrxh/ensam-smart-navigation-system
+repo_url: https://github.com/ydtrxh/ensam-smart-navigation-system
 edit_uri: edit/main/docs/
 
 docs_dir: docs
