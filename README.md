@@ -606,4 +606,4 @@ The route quality depends more on graph topology than on the UI polyline. To rep
 
 ---
 
-## LicenseThis project is licensed under the MIT License. See LICENSE for detailsusually a good default if there are no institutional restrictions.
+
