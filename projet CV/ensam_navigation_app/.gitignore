@@ -54,6 +54,7 @@ models/legacy/
 
 # Generated outputs and reports
 outputs/
+site/
 cv_engine/outputs/
 data/augmentation_report.json
 data/sync_report.json
@@ -74,4 +75,3 @@ data/campus_graph_from_svg_editor.json
 !data/navigation_db.json
 !data/graph.json
 !data/ensam360_old_routing_reference.json
-

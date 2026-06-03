@@ -5,12 +5,11 @@
 ![Streamlit](https://img.shields.io/badge/Streamlit-Web%20App-FF4B4B?logo=streamlit&logoColor=white)
 ![Neo4j](https://img.shields.io/badge/Neo4j-Graph%20Database-4581C3?logo=neo4j&logoColor=white)
 ![NetworkX](https://img.shields.io/badge/NetworkX-Graph%20Validation-1F77B4)
-![Whisper](https://img.shields.io/badge/Whisper-Speech%20Recognition-111827)
 ![Ollama](https://img.shields.io/badge/Ollama-Optional%20Local%20LLM-000000)
 
-An intelligent campus navigation system for ENSAM that combines **Computer Vision**, **Speech Recognition**, **Natural Language Processing**, and **Graph-Based Routing** to help users identify their current location and navigate to a destination on an interactive campus map.
+An intelligent campus navigation system for ENSAM that combines **Computer Vision**, **Natural Language Processing**, and **Graph-Based Routing** to help users identify their current location and navigate to a destination on an interactive campus map.
 
-The system is designed as an applied AI engineering project: a user uploads an image of their surroundings, the vision model recognizes the building or door area, the user gives a destination by text or voice, the NLP pipeline resolves that destination to a campus node, and the navigation engine computes a realistic route through a graph of walkable paths.
+The system is designed as an applied AI engineering project: a user uploads an image of their surroundings, the vision model recognizes the building or door area, the user types a destination, the NLP pipeline resolves that destination to a campus node, and the navigation engine computes a realistic route through a graph of walkable paths.
 
 ---
 
@@ -21,8 +20,7 @@ Large campuses can be difficult to navigate for new students, visitors, and staf
 This project explores how multiple AI components can work together in one practical system:
 
 - Computer Vision localizes the user from a building or door image.
-- Speech Recognition allows hands-free destination input.
-- NLP converts informal user requests into structured destination nodes.
+- NLP converts typed destination requests into structured destination nodes.
 - Graph routing computes paths through real campus walkways.
 - Streamlit and Leaflet/SVG provide an interactive user interface.
 - Neo4j stores the navigation graph and enables shortest-path queries.
@@ -33,7 +31,7 @@ This project explores how multiple AI components can work together in one practi
 
 - Location recognition from campus images using deep learning.
 - Metric-learning CV pipeline with EfficientNet-B0 embeddings.
-- Voice-based destination input through Whisper-compatible transcription.
+- Text-based destination input.
 - NLP destination extraction and fuzzy entity resolution.
 - Optional local LLM support through Ollama.
 - Interactive campus map rendered from a custom SVG.
@@ -51,13 +49,12 @@ This project explores how multiple AI components can work together in one practi
 flowchart LR
     User["User"]
     Image["Campus image"]
-    Voice["Voice or text destination"]
+    Text["Typed destination"]
 
     CV["Computer Vision Engine<br/>EfficientNet-B0 embeddings"]
     Gallery["Gallery centroids<br/>checkpoints/gallery.pkl"]
     Buildings["data/buildings.json<br/>class to node_id"]
 
-    Whisper["Speech Recognition<br/>Whisper-compatible input"]
     NLP["NLP Engine<br/>intent extraction + entity resolution"]
     GeoJSON["campus.geojson<br/>labels and aliases"]
 
@@ -74,8 +71,7 @@ flowchart LR
     CV --> Buildings
     Buildings --> Routing
 
-    User --> Voice --> Whisper --> NLP
-    User --> NLP
+    User --> Text --> NLP
     NLP --> GeoJSON
     NLP --> Routing
 
@@ -229,7 +225,7 @@ The NLP pipeline converts a user destination request into a graph node ID.
 
 ```mermaid
 flowchart LR
-    Input["Text or Whisper transcript"]
+    Input["Typed destination text"]
     Extract["Intent extraction<br/>LLM or local rules"]
     Resolve["Entity resolution<br/>RapidFuzz aliases"]
     Campus["campus.geojson"]
@@ -312,29 +308,19 @@ pip install -r cv_engine/requirements.txt
 pip install albumentations==1.3.1
 ```
 
-### 4. Start Neo4j
+### 4. Configure Neo4j AuraDB
 
-Using Docker:
-
-```bash
-docker compose up -d
-```
-
-Default local credentials in `docker-compose.yml`:
-
-```text
-NEO4J_URI=bolt://localhost:7687
-NEO4J_USER=neo4j
-NEO4J_PASSWORD=ensam360password
-```
-
-You may also create a `.env` file:
+This project uses **Neo4j AuraDB** as the graph database. Create an AuraDB instance, then copy your connection URI, username, and password into a local `.env` file:
 
 ```env
-NEO4J_URI=bolt://localhost:7687
+NEO4J_URI=neo4j+s://your-aura-instance.databases.neo4j.io
 NEO4J_USER=neo4j
-NEO4J_PASSWORD=ensam360password
+NEO4J_PASSWORD=your-aura-generated-password
 ```
+
+The `.env` file is intentionally ignored by Git because it contains credentials.
+
+For local-only experimentation, `docker-compose.yml` can still be used to start a local Neo4j instance, but AuraDB is the recommended setup for this project.
 
 ### 5. Synchronize the campus graph
 
@@ -361,10 +347,36 @@ http://localhost:8501
 1. Upload an image of your current campus environment.
 2. The CV model predicts the most likely location.
 3. Confirm the detected location.
-4. Enter or speak your destination.
+4. Enter your destination as text.
 5. The NLP pipeline resolves the destination to a graph node.
 6. The navigation engine computes the shortest route.
 7. The route is displayed on the SVG campus map.
+
+---
+
+## Documentation Site
+
+The project includes a MkDocs Material documentation site under `docs/`.
+
+Install documentation dependencies:
+
+```bash
+pip install -r requirements-dev.txt
+```
+
+Serve locally:
+
+```bash
+mkdocs serve
+```
+
+Build for deployment:
+
+```bash
+mkdocs build --strict
+```
+
+The documentation is configured for both GitHub Pages and Read the Docs through `mkdocs.yml`, `.github/workflows/docs.yml`, and `.readthedocs.yaml`.
 
 ---
 
@@ -440,7 +452,41 @@ python -m nlp_engine.test_pipeline
 
 ## Results and Metrics
 
-The current training statistics show strong retrieval performance on the validation setup, with Recall@1 reaching up to `1.0000` during the recorded triplet-loss run in `outputs/training_stats.json`.
+The available validation statistics come from the recorded triplet-loss training run in `outputs/training_stats.json`.
+
+### Vision Model Validation Summary
+
+| Item | Value |
+| --- | --- |
+| Loss function | Batch-hard triplet loss |
+| Random seed | `42` |
+| Recorded epochs | `10` |
+| Best validation Recall@1 | `100.00%` at epoch 7 |
+| Best validation Recall@3 | `100.00%` |
+| Best validation Recall@5 | `100.00%` |
+| Final epoch Recall@1 | `99.41%` |
+| Final epoch Recall@3 | `100.00%` |
+| Final epoch Recall@5 | `100.00%` |
+| Final train loss | `0.3151` |
+| Final mean intra-class distance | `0.0102` |
+| Final mean inter-class distance | `0.0310` |
+
+### Validation Recall by Epoch
+
+| Epoch | Train Loss | Recall@1 | Recall@3 | Recall@5 | Intra-Class Distance | Inter-Class Distance |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| 1 | 0.4951 | 98.24% | 100.00% | 100.00% | 0.1180 | 0.3178 |
+| 2 | 0.4039 | 98.24% | 100.00% | 100.00% | 0.0594 | 0.1647 |
+| 3 | 0.3609 | 98.82% | 99.41% | 99.41% | 0.0341 | 0.1000 |
+| 4 | 0.3415 | 98.82% | 100.00% | 100.00% | 0.0251 | 0.0731 |
+| 5 | 0.3321 | 98.82% | 100.00% | 100.00% | 0.0200 | 0.0588 |
+| 6 | 0.3260 | 98.82% | 100.00% | 100.00% | 0.0172 | 0.0507 |
+| 7 | 0.3222 | 100.00% | 100.00% | 100.00% | 0.0145 | 0.0425 |
+| 8 | 0.3191 | 99.41% | 100.00% | 100.00% | 0.0128 | 0.0380 |
+| 9 | 0.3170 | 99.41% | 100.00% | 100.00% | 0.0113 | 0.0342 |
+| 10 | 0.3151 | 99.41% | 100.00% | 100.00% | 0.0102 | 0.0310 |
+
+These metrics evaluate embedding retrieval quality: for each validation image, the model checks whether an image from the same class appears in the top-K nearest embeddings.
 
 Important note: model performance should be reported from the latest `outputs/eval_report.json` generated against the current 17-class dataset. If an older `model_metrics.json` contains only a subset of classes, it should not be used as a final academic result.
 
@@ -575,7 +621,7 @@ Alternative names:
 ### Repository Description
 
 ```text
-AI-powered ENSAM campus navigation system combining computer vision, speech recognition, NLP, Neo4j graph routing, and Streamlit map visualization.
+AI-powered ENSAM campus navigation system combining computer vision, NLP, Neo4j graph routing, and Streamlit map visualization.
 ```
 
 ### Topics / Tags
@@ -587,8 +633,6 @@ streamlit
 pytorch
 neo4j
 nlp
-speech-recognition
-whisper
 ollama
 networkx
 leaflet
@@ -604,7 +648,7 @@ Create a wide banner showing:
 - ENSAM campus map in the background,
 - a highlighted route polyline,
 - a small camera/image recognition card,
-- a voice/NLP destination card,
+- an NLP destination text-input card,
 - the title: `ENSAM Smart Navigation System`.
 
 Recommended size:
@@ -673,4 +717,4 @@ The route quality depends more on graph topology than on the UI polyline. To rep
 
 ## License
 
-Add a license before public release. For academic portfolio projects, MIT is usually a good default if there are no institutional restrictions.
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.

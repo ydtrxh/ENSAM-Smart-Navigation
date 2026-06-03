@@ -1,0 +1,84 @@
+site_name: ENSAM Smart Navigation System
+site_description: AI-powered campus navigation with computer vision, NLP, Neo4j graph routing, and Streamlit.
+site_author: ENSAM Smart Navigation System Contributors
+site_url: https://your-username.github.io/ensam-smart-navigation-system/
+
+repo_name: your-username/ensam-smart-navigation-system
+repo_url: https://github.com/your-username/ensam-smart-navigation-system
+edit_uri: edit/main/docs/
+
+docs_dir: docs
+site_dir: site
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - toc.follow
+    - content.code.copy
+    - content.action.edit
+    - content.action.view
+    - search.highlight
+    - search.share
+  palette:
+    - scheme: default
+      primary: blue
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: blue
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  icon:
+    repo: fontawesome/brands/github
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+
+nav:
+  - Home: index.md
+  - Getting Started:
+      - Installation: installation.md
+      - Quickstart: quickstart.md
+  - System:
+      - Architecture: architecture.md
+      - Computer Vision: computer-vision.md
+      - NLP: nlp.md
+      - Navigation: navigation.md
+      - Neo4j Integration: neo4j.md
+  - Operations:
+      - Retraining: retraining.md
+      - Streamlit Deployment: deployment-streamlit.md
+      - Developer Guide: developer-guide.md
+  - Engineering Notes:
+      - Project Structure Migration: project_structure_migration_plan.md
+      - Routing Migration Plan: routing_migration_plan.md
